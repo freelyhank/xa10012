@@ -1,0 +1,423 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: 产品预览 · Market prototype
+    - generic [ref=e7]: /
+    - generic [ref=e8]: 暂未连接钱包或智能合约
+    - link "了解交易流程" [ref=e590] [cursor=pointer]:
+      - /url: "#protocol"
+  - banner [ref=e13]:
+    - link "Swaplume.fun 首页" [ref=e591] [cursor=pointer]:
+      - /url: "#top"
+      - img "Swaplume.fun — Collect with proof." [ref=e15]
+    - navigation "主要导航" [ref=e592]:
+      - link "藏品市集" [ref=e593] [cursor=pointer]:
+        - /url: "#market"
+      - link "交易保障" [ref=e594] [cursor=pointer]:
+        - /url: "#protocol"
+      - link "质押与奖励" [ref=e595] [cursor=pointer]:
+        - /url: "#rewards"
+      - link "路线图" [ref=e596] [cursor=pointer]:
+        - /url: "#roadmap"
+    - generic [ref=e21]:
+      - button "成为卖家" [ref=e597] [cursor=pointer]
+      - button "连接钱包" [ref=e598] [cursor=pointer]
+      - button "切换到英文" [active] [ref=e599] [cursor=pointer]: EN
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: 收藏的下一站 · ON SOLANA
+        - heading "让每件藏品， 都有迹可循。" [level=1] [ref=e600]: 让每件藏品，都有迹可循。
+        - paragraph [ref=e35]: 潮玩二手市集，为实物藏品记录来历、交易与流转。认真收藏，也认真留证。
+        - generic [ref=e36]:
+          - button "逛逛藏品" [ref=e601] [cursor=pointer]
+          - button "交易如何运作" [ref=e602] [cursor=pointer]
+        - generic [ref=e44]:
+          - generic [ref=e45]: 实物先行
+          - generic [ref=e47]: 交易有据
+          - generic [ref=e49]: 社区共建
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img "青蓝色龙纹的收藏级设计师公仔" [ref=e603]
+          - generic [ref=e54]:
+            - generic [ref=e55]: PHOTO REF / 001
+            - generic [ref=e57]: ITEM PHOTO
+          - generic [ref=e58]: 参考藏品 · 演示照片
+        - complementary [ref=e62]:
+          - generic [ref=e63]: THE COLLECTOR'S EDIT · 001
+          - generic [ref=e64]: DESIGNER VINYL
+          - heading "蓝龙 Dunny" [level=2] [ref=e604]: 蓝龙Dunny
+          - paragraph [ref=e69]: 一件实物，一份可追溯的商品档案。
+          - generic [ref=e71]:
+            - generic [ref=e72]: 商品凭证
+            - strong [ref=e73]: ITEM NFT 规划中
+          - generic [ref=e74]:
+            - generic [ref=e75]: 示例报价
+            - strong [ref=e76]:
+              - text: 2,480
+              - emphasis [ref=e77]: SLM
+          - generic [ref=e78]: 真实上架与链上记录暂未开放
+    - region "平台特征" [ref=e605]:
+      - generic [ref=e84]:
+        - generic [ref=e85]: "01"
+        - generic [ref=e86]: 从实物出发
+        - generic [ref=e87]: —
+        - generic [ref=e88]: 照片、购买凭证与鉴定信息共同构成商品档案
+      - generic [ref=e89]:
+        - generic [ref=e90]: "02"
+        - generic [ref=e91]: 状态清晰可见
+        - generic [ref=e92]: —
+        - generic [ref=e93]: 订单托管、物流与确认步骤逐项记录
+      - generic [ref=e94]:
+        - generic [ref=e95]: "03"
+        - generic [ref=e96]: 凭证陪伴交易
+        - generic [ref=e97]: —
+        - generic [ref=e98]: 商品凭证与交易证明对应实物与交易历史
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]: THE COLLECTOR'S MARKET
+          - heading "现在，值得收藏。" [level=2] [ref=e606]
+          - paragraph [ref=e105]: 为探索体验准备的示例藏品 · 所有商品与价格均为演示数据
+        - button "演示藏品照片均有来源" [ref=e607] [cursor=pointer]
+      - generic [ref=e111]:
+        - tablist "商品类别" [ref=e608]:
+          - tab "全部藏品" [selected] [ref=e609] [cursor=pointer]
+          - tab "设计师玩具" [ref=e610] [cursor=pointer]
+          - tab "搪胶公仔" [ref=e611] [cursor=pointer]
+          - tab "人偶模型" [ref=e612] [cursor=pointer]
+          - tab "我的收藏 0" [ref=e613] [cursor=pointer]:
+            - text: 我的收藏
+            - generic [ref=e118]: "0"
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - searchbox "搜索藏品" [ref=e614]
+            - generic [ref=e125]: Ctrl K
+          - combobox "排序方式" [ref=e615] [cursor=pointer]:
+            - option "推荐排序" [selected]
+            - option "价格由低到高"
+            - option "价格由高到低"
+      - generic [ref=e131]:
+        - article [ref=e132]:
+          - generic [ref=e133]:
+            - button "查看 蓝龙 Dunny 详情" [ref=e616] [cursor=pointer]:
+              - img "白色搪胶公仔，绘有青蓝色龙纹" [ref=e617]
+              - generic [ref=e136]: SLM / 001
+            - generic [ref=e137]: 凭证资料已登记
+            - button "加入收藏" [ref=e618] [cursor=pointer]
+            - generic [ref=e144]: 预览
+          - button "瓷绘系列 · 设计师搪胶 蓝龙 Dunny" [ref=e619] [cursor=pointer]:
+            - generic [ref=e146]: 瓷绘系列 · 设计师搪胶
+            - heading "蓝龙 Dunny" [level=3] [ref=e620]
+          - generic [ref=e153]:
+            - generic [ref=e154]: 保存良好
+            - generic [ref=e156]: 单件藏品
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - strong [ref=e159]: 2,480
+              - generic [ref=e160]: SLM
+            - generic [ref=e161]: 参考示例
+        - article [ref=e162]:
+          - generic [ref=e163]:
+            - button "查看 Molly · 艺术家款 详情" [ref=e621] [cursor=pointer]:
+              - img "Molly 艺术玩具人物公仔" [ref=e622]
+              - generic [ref=e166]: SLM / 002
+            - button "加入收藏" [ref=e623] [cursor=pointer]
+            - generic [ref=e170]: 预览
+          - button "Molly (art toy) · 收藏展示 Molly · 艺术家款" [ref=e624] [cursor=pointer]:
+            - generic [ref=e172]: Molly (art toy) · 收藏展示
+            - heading "Molly · 艺术家款" [level=3] [ref=e625]
+          - generic [ref=e179]:
+            - generic [ref=e180]: 展示级成色
+            - generic [ref=e182]: 设计师玩具
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - strong [ref=e185]: 1,860
+              - generic [ref=e186]: SLM
+            - generic [ref=e187]: 参考示例
+        - article [ref=e188]:
+          - generic [ref=e189]:
+            - button "查看 雾白 Hootlum 详情" [ref=e626] [cursor=pointer]:
+              - img "白色 Hootlum 搪胶艺术公仔" [ref=e627]
+              - generic [ref=e192]: SLM / 003
+            - generic [ref=e193]: 凭证资料已登记
+            - button "加入收藏" [ref=e628] [cursor=pointer]
+            - generic [ref=e200]: 预览
+          - button "HOOTLUM vinyl art figure · White 雾白 Hootlum" [ref=e629] [cursor=pointer]:
+            - generic [ref=e202]: HOOTLUM vinyl art figure · White
+            - heading "雾白 Hootlum" [level=3] [ref=e630]
+          - generic [ref=e209]:
+            - generic [ref=e210]: 全新摆件
+            - generic [ref=e212]: White edition
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - strong [ref=e215]: 1,320
+              - generic [ref=e216]: SLM
+            - generic [ref=e217]: 参考示例
+        - article [ref=e218]:
+          - generic [ref=e219]:
+            - button "查看 Kirshima Nendoroid 详情" [ref=e631] [cursor=pointer]:
+              - img "摆放在室内场景中的日系可动人偶" [ref=e632]
+              - generic [ref=e222]: SLM / 004
+            - button "加入收藏" [ref=e633] [cursor=pointer]
+            - generic [ref=e226]: 预览
+          - button "Nendoroid · ねんどろいど 桐島 Kirshima Nendoroid" [ref=e634] [cursor=pointer]:
+            - generic [ref=e228]: Nendoroid · ねんどろいど 桐島
+            - heading "Kirshima Nendoroid" [level=3] [ref=e635]
+          - generic [ref=e235]:
+            - generic [ref=e236]: 含展示底座
+            - generic [ref=e238]: 可动人偶
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - strong [ref=e241]: "980"
+              - generic [ref=e242]: SLM
+            - generic [ref=e243]: 参考示例
+        - article [ref=e244]:
+          - generic [ref=e245]:
+            - button "查看 Nendoroid 收藏墙 详情" [ref=e636] [cursor=pointer]:
+              - img "一面墙陈列着盒装 Nendoroid 收藏人偶" [ref=e637]
+              - generic [ref=e248]: SLM / 005
+            - generic [ref=e249]: 凭证资料已登记
+            - button "加入收藏" [ref=e638] [cursor=pointer]
+            - generic [ref=e256]: 预览
+          - button "盒装人偶系列 · 收藏组合 Nendoroid 收藏墙" [ref=e639] [cursor=pointer]:
+            - generic [ref=e258]: 盒装人偶系列 · 收藏组合
+            - heading "Nendoroid 收藏墙" [level=3] [ref=e640]
+          - generic [ref=e265]:
+            - generic [ref=e266]: 组合预览
+            - generic [ref=e268]: 收藏组合
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - strong [ref=e271]: 3,200
+              - generic [ref=e272]: SLM
+            - generic [ref=e273]: 参考示例
+      - generic [ref=e274]: 目前展示的商品名称、成色描述、SLM 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e280]: BUILT AROUND REAL TRADES
+          - heading "实物在前，凭证随行。" [level=2] [ref=e641]
+          - paragraph [ref=e283]: 从上架审核到交易完成，商品和资金的状态都能被看懂。
+        - generic [ref=e284]: 白皮书流程 · 设计草案
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - article [ref=e289]:
+            - generic [ref=e290]: 01 / ITEM
+            - heading "建好商品档案" [level=3] [ref=e642]
+            - paragraph [ref=e296]: 卖家提交照片、购买凭证与序列信息，通过平台或合作鉴定方审核后才能进入市集。
+            - generic [ref=e297]:
+              - generic [ref=e298]: 商品系列
+              - generic [ref=e299]: 鉴定与成色
+              - generic [ref=e300]: 购买凭证哈希
+          - article [ref=e301]:
+            - generic [ref=e302]: 02 / ESCROW
+            - heading "按步骤完成托管" [level=3] [ref=e643]
+            - paragraph [ref=e309]: 买家付款进入订单托管；卖家发货，物流回传状态，买家确认收货后进入争议期。
+            - generic [ref=e310]:
+              - generic [ref=e311]: 资金托管
+              - generic [ref=e312]: 物流更新
+              - generic [ref=e313]: 48–72 小时争议期
+          - article [ref=e314]:
+            - generic [ref=e315]: 03 / PROOF
+            - heading "结算后留下凭证" [level=3] [ref=e644]
+            - paragraph [ref=e321]: 争议期结束后结算货款，商品凭证随商品流转，买卖双方获得各自的交易证明。
+            - generic [ref=e322]:
+              - generic [ref=e323]: Item NFT
+              - generic [ref=e324]: Trade Proof NFT
+              - generic [ref=e325]: 交易历史
+        - complementary [ref=e326]:
+          - generic [ref=e327]:
+            - generic [ref=e328]: ITEM PASSPORT
+            - generic [ref=e330]: 设计示意
+          - generic [ref=e331]:
+            - img "蓝龙 Dunny 商品凭证中的实物照片示意" [ref=e645]
+            - generic [ref=e333]: 实物照片示意
+          - generic [ref=e335]:
+            - text: COLLECTIBLE / 001
+            - heading "蓝龙 Dunny" [level=3] [ref=e646]
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - generic [ref=e343]: 商品类型
+              - strong [ref=e344]: 设计师搪胶
+            - generic [ref=e345]:
+              - generic [ref=e346]: 链上凭证
+              - strong [ref=e347]:
+                - text: Item NFT
+                - generic [ref=e349]: 未来支持
+            - generic [ref=e350]:
+              - generic [ref=e351]: 权利范围
+              - strong [ref=e352]: 商品记录与交易历史
+            - generic [ref=e353]:
+              - generic [ref=e354]: 链下数据
+              - strong [ref=e355]: 图片、成色与购买凭证哈希
+          - generic [ref=e356]: 商品凭证不代表品牌方背书，亦不会转移商标、版权或角色形象权利。
+      - generic [ref=e357]:
+        - generic [ref=e358]: 买家付款
+        - generic [ref=e363]: 订单托管
+        - generic [ref=e368]: 卖家发货
+        - generic [ref=e373]: 买家确认
+        - generic [ref=e378]: 结算 & 凭证
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - generic [ref=e383]:
+          - generic [ref=e384]: REWARDS FROM REAL ACTIVITY
+          - heading "奖励来自参与，不来自承诺。" [level=2] [ref=e647]
+          - paragraph [ref=e387]: 依照白皮书建议参数制作的交互式质押权重试算，不展示或预测收益。
+        - generic [ref=e388]: 白皮书草案参数
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - heading "质押权重试算" [level=3] [ref=e648]
+            - generic [ref=e401]: 本地交互
+          - generic [ref=e402]:
+            - text: 假设锁仓数量
+            - generic [ref=e403]: SLM
+          - generic [ref=e404]:
+            - spinbutton "假设锁仓数量 SLM" [ref=e649]: "2500"
+            - generic [ref=e406]: SLM
+            - button "重置" [ref=e650] [cursor=pointer]
+          - generic [ref=e408]:
+            - slider "选择 SLM 锁仓数量" [ref=e651] [cursor=pointer]: "2500"
+            - generic [ref=e410]:
+              - generic [ref=e411]: 0 SLM
+              - generic [ref=e412]: 50,000 SLM
+          - generic [ref=e413]:
+            - text: 锁仓周期
+            - generic [ref=e414]: 时间系数
+          - generic "锁仓周期" [ref=e652]:
+            - button "30 天 1.00×" [ref=e653] [cursor=pointer]:
+              - generic [ref=e417]: 30 天
+              - generic [ref=e418]: 1.00×
+            - button "90 天 1.25×" [ref=e654] [cursor=pointer]:
+              - generic [ref=e420]: 90 天
+              - generic [ref=e421]: 1.25×
+            - button "180 天 1.60×" [ref=e655] [cursor=pointer]:
+              - generic [ref=e423]: 180 天
+              - generic [ref=e424]: 1.60×
+          - generic [ref=e425]:
+            - text: 会员凭证
+            - generic [ref=e426]: 草案加成
+          - combobox "选择会员凭证" [ref=e656] [cursor=pointer]:
+            - option "无会员凭证" [selected]
+            - option "Collector Pass"
+            - option "Genesis Pass"
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - generic [ref=e435]: 示例权重系数
+              - generic [ref=e436]: 不构成奖励金额或 APY
+            - strong [ref=e437]: 1.25×
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - img "Swaplume proof mark" [ref=e443]
+            - generic [ref=e444]: 已实现交易手续费
+            - generic [ref=e449]: 公开批准社区预算
+            - generic [ref=e453]: 质押者按权重分享
+            - generic [ref=e460]: ONLY REALIZED FUNDS
+          - generic [ref=e461]:
+            - text: 奖励分配思路
+            - paragraph [ref=e462]: 每个周期的奖励上限取决于已实现的可分配收入与经治理批准的预算。白皮书提出按锁仓数量、锁仓时间、会员凭证与持有时间计算权重。
+            - code [ref=e464]: 当期奖励池 × 个人权重 ÷ 全部有效权重
+      - generic [ref=e468]:
+        - paragraph [ref=e472]: 草案参数可能调整；当前未部署质押、奖励池或会员 NFT 合约。奖励来自真实收入或事先公开的代币预算，不承诺固定 APY、收益、回购或代币价格。
+        - button "查看奖励规则说明" [ref=e657] [cursor=pointer]
+    - generic [ref=e476]:
+      - generic [ref=e477]:
+        - generic [ref=e478]: SLM · PROPOSED TOKEN MODEL
+        - heading "机制先写清楚， 再逐步验证。" [level=2] [ref=e658]: 机制先写清楚，再逐步验证。
+        - paragraph [ref=e481]: 白皮书初始模型用于讨论与测试，代币供给、分配和释放尚非已部署事实。
+        - button "查看模型说明" [ref=e659] [cursor=pointer]
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]: 建议初始总量
+          - strong [ref=e489]: 1,000,000,000 SLM
+          - generic [ref=e490]: 提案参数 · 尚未发行
+        - generic [ref=e491]:
+          - generic [ref=e492]:
+            - generic [ref=e494]: 社区、质押与交易奖励
+            - strong [ref=e495]: 30%
+          - generic [ref=e496]:
+            - generic [ref=e498]: 金库与商品采购
+            - strong [ref=e499]: 20%
+          - generic [ref=e500]:
+            - generic [ref=e502]: 流动性与做市
+            - strong [ref=e503]: 15%
+          - generic [ref=e504]:
+            - generic [ref=e506]: 团队与核心贡献者
+            - strong [ref=e507]: 15%
+          - generic [ref=e508]:
+            - generic [ref=e510]: 生态与合作伙伴
+            - strong [ref=e511]: 10%
+          - generic [ref=e512]:
+            - generic [ref=e514]: 投资者与顾问
+            - strong [ref=e515]: 10%
+        - generic [ref=e516]:
+          - generic [ref=e517]: 团队代币：建议 12 个月 cliff + 36 个月线性释放
+          - generic [ref=e522]: 多签与时间锁管理 · 草案建议
+    - generic [ref=e523]:
+      - generic [ref=e524]:
+        - generic [ref=e525]:
+          - generic [ref=e526]: FROM CONCEPT TO COMMUNITY
+          - heading "每一步，都经得起检验。" [level=2] [ref=e660]
+          - paragraph [ref=e529]: 路线图阶段是拟议方向；当前网站是产品交互预览。
+        - generic [ref=e530]: DRAFT ROADMAP
+      - generic [ref=e532]:
+        - article [ref=e533]:
+          - generic [ref=e534]: PHASE 00
+          - text: 当前规划
+          - heading "机制设计与测试网" [level=3] [ref=e661]
+          - paragraph [ref=e538]: 完善数据模型、代币经济模拟和合约规格；发布测试网前端并开展内部安全测试。
+          - generic [ref=e539]: 产品与审计准备
+        - article [ref=e540]:
+          - generic [ref=e541]: PHASE 01
+          - text: 规划中
+          - heading "Genesis 与凭证 NFT" [level=3] [ref=e662]
+          - paragraph [ref=e544]: 测试 Genesis Pass、交易证明与社区任务，并验证质押和随机数机制。
+          - generic [ref=e545]: 参与机制验证
+        - article [ref=e546]:
+          - generic [ref=e547]: PHASE 02
+          - text: 规划中
+          - heading "市集 Alpha" [level=3] [ref=e663]
+          - paragraph [ref=e550]: 邀请卖家试运行报价、托管、商品凭证、履约保证金与物流回传。
+          - generic [ref=e551]: 小范围交易测试
+        - article [ref=e552]:
+          - generic [ref=e553]: PHASE 03–04
+          - text: 后续阶段
+          - heading "奖励季与社区治理" [level=3] [ref=e664]
+          - paragraph [ref=e556]: 按真实交易数据逐步开放奖池、质押奖励预算与社区参数提案。
+          - generic [ref=e557]: 持续披露与共同治理
+    - generic [ref=e558]:
+      - generic [ref=e560]:
+        - text: A MARKET BUILT FOR COLLECTORS
+        - heading "藏得认真，就该有迹可循。" [level=2] [ref=e665]
+        - paragraph [ref=e562]: 从一件实物开始，让每一次交接都留下清楚的来历。
+      - button "探索示例市集" [ref=e666] [cursor=pointer]
+  - contentinfo [ref=e566]:
+    - generic [ref=e567]:
+      - link [ref=e568] [cursor=pointer]:
+        - /url: "#top"
+        - img "Swaplume.fun" [ref=e569]
+      - paragraph [ref=e570]: 为实物藏品而设计的 Solana 二手市集。Collect with proof.
+      - generic [ref=e571]:
+        - link "藏品市集" [ref=e667] [cursor=pointer]:
+          - /url: "#market"
+        - link "交易保障" [ref=e668] [cursor=pointer]:
+          - /url: "#protocol"
+        - link "质押模型" [ref=e669] [cursor=pointer]:
+          - /url: "#rewards"
+        - link "路线图" [ref=e670] [cursor=pointer]:
+          - /url: "#roadmap"
+    - generic [ref=e576]:
+      - generic [ref=e577]: © 2026 Swaplume.fun · Independent collector marketplace
+      - generic [ref=e578]: 不是任何商品品牌的官方商城或授权销售渠道。
+    - generic [ref=e579]: SLM、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。
+    - generic [ref=e583]:
+      - generic [ref=e584]: 演示图片来源与许可：
+      - link "Dunny · CC BY-SA 4.0" [ref=e585] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Dunny_vinyl_figure_which_portrays_a_dragon_embroidered_on_a_silk_brocade_door_valance_and_side_panels_(Chinese,_17th-18th_century)_in_The_MET_collection.jpg
+      - link "Molly · CC0" [ref=e586] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Molly_(art_toy).jpg
+      - link "Hootlum · CC BY-SA 4.0" [ref=e587] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:HOOTLUM_vinyl_art_figure_(white_edition).jpg
+      - link "Nendoroid · CC BY 2.0" [ref=e588] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:KanColle_Nendoroid_-_Kirishima.jpg
+      - link "收藏组合 · CC BY-SA 2.0" [ref=e671] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Nendoroid_Collection.jpg

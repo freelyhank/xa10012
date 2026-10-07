@@ -1,0 +1,403 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]: Product preview · Market prototype
+    - generic [ref=e7]: /
+    - generic [ref=e8]: Wallet and smart contracts are not connected yet
+    - link "See how it works" [ref=e9] [cursor=pointer]:
+      - /url: "#protocol"
+  - banner [ref=e13]:
+    - link "Swaplume.fun Home" [ref=e14] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e16]:
+        - generic [ref=e17]: swaplume.fun
+        - generic [ref=e18]: COLLECT WITH PROOF.
+    - generic [ref=e24]:
+      - button "Become a seller" [ref=e25] [cursor=pointer]
+      - button "Connect wallet" [ref=e27] [cursor=pointer]
+      - button "Switch to Chinese" [ref=e31] [cursor=pointer]: 中
+      - button "Open menu" [ref=e600] [cursor=pointer]
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: The next stop for collectors · ON SOLANA
+        - heading "Every collectible, with a story you can trace." [level=1] [ref=e37]: Every collectible,with a story you can trace.
+        - paragraph [ref=e38]: A resale market for art toys that records provenance, trades, and custody for physical collectibles. Collect with care, and keep the proof.
+        - generic [ref=e39]:
+          - button "Explore collectibles" [ref=e40] [cursor=pointer]
+          - button "How trading works" [ref=e43] [cursor=pointer]
+        - generic [ref=e47]:
+          - generic [ref=e48]: Physical first
+          - generic [ref=e50]: Trades with proof
+          - generic [ref=e52]: Built with the community
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img "Collector-grade designer figure with a blue dragon motif" [ref=e56]
+          - generic [ref=e57]:
+            - generic [ref=e58]: PHOTO REF / 001
+            - generic [ref=e60]: ITEM PHOTO
+          - generic [ref=e61]: Reference collectible · Demo photo
+        - complementary [ref=e65]:
+          - generic [ref=e66]: THE COLLECTOR'S EDIT · 001
+          - generic [ref=e67]: DESIGNER VINYL
+          - heading "Blue Dragon Dunny" [level=2] [ref=e71]: Blue DragonDunny
+          - paragraph [ref=e72]: One physical item, one permanent on-chain credential after destruction.
+    - region "Platform principles" [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: "01"
+        - generic [ref=e89]: Start with the physical item
+      - generic [ref=e92]:
+        - generic [ref=e93]: "02"
+        - generic [ref=e94]: Status stays visible
+      - generic [ref=e97]:
+        - generic [ref=e98]: "03"
+        - generic [ref=e99]: Proof travels with the trade
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: THE COLLECTOR'S MARKET
+          - heading "Find what is worth collecting." [level=2] [ref=e107]
+          - paragraph [ref=e108]: Sample collectibles for exploration · All items and prices are demo data
+        - button "Every demo photo is credited" [ref=e109] [cursor=pointer]
+      - generic [ref=e114]:
+        - tablist "Item categories" [ref=e115]:
+          - tab "All collectibles" [selected] [ref=e116] [cursor=pointer]
+          - tab "Designer toys" [ref=e117] [cursor=pointer]
+          - tab "Vinyl figures" [ref=e118] [cursor=pointer]
+          - tab "Character figures" [ref=e119] [cursor=pointer]
+          - tab "My favorites 0" [ref=e120] [cursor=pointer]:
+            - text: My favorites
+            - generic [ref=e121]: "0"
+        - generic [ref=e122]:
+          - searchbox "Search collectibles" [ref=e127]
+          - combobox "Sort order" [ref=e133] [cursor=pointer]:
+            - option "Recommended" [selected]
+            - 'option "Price: low to high"'
+            - 'option "Price: high to low"'
+      - generic [ref=e134]:
+        - article [ref=e135]:
+          - generic [ref=e136]:
+            - button "View Blue Dragon Dunny details" [ref=e137] [cursor=pointer]:
+              - img "White vinyl figure with a blue dragon motif" [ref=e138]
+              - generic [ref=e139]: SLM / 001
+            - generic [ref=e140]: Proof registered
+            - button "Add to favorites" [ref=e144] [cursor=pointer]
+            - generic [ref=e147]: Preview
+          - button "Porcelain Series · Designer Vinyl Blue Dragon Dunny" [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]: Porcelain Series · Designer Vinyl
+            - heading "Blue Dragon Dunny" [level=3] [ref=e151]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Well preserved
+            - generic [ref=e159]: Single collectible
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - strong [ref=e162]: 2,480
+              - generic [ref=e163]: SLM
+            - generic [ref=e164]: Demo reference
+        - article [ref=e165]:
+          - generic [ref=e166]:
+            - button "View Molly · Artist Edition details" [ref=e167] [cursor=pointer]:
+              - img "Molly art toy figure" [ref=e168]
+              - generic [ref=e169]: SLM / 002
+            - button "Add to favorites" [ref=e170] [cursor=pointer]
+            - generic [ref=e173]: Preview
+          - button "Molly (art toy) · Display collection Molly · Artist Edition" [ref=e174] [cursor=pointer]:
+            - generic [ref=e175]: Molly (art toy) · Display collection
+            - heading "Molly · Artist Edition" [level=3] [ref=e177]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Display-grade condition
+            - generic [ref=e185]: Designer toy
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - strong [ref=e188]: 1,860
+              - generic [ref=e189]: SLM
+            - generic [ref=e190]: Demo reference
+        - article [ref=e191]:
+          - generic [ref=e192]:
+            - button "View Mist White Hootlum details" [ref=e193] [cursor=pointer]:
+              - img "White Hootlum vinyl art figure" [ref=e194]
+              - generic [ref=e195]: SLM / 003
+            - generic [ref=e196]: Proof registered
+            - button "Add to favorites" [ref=e200] [cursor=pointer]
+            - generic [ref=e203]: Preview
+          - button "HOOTLUM vinyl art figure · White Mist White Hootlum" [ref=e204] [cursor=pointer]:
+            - generic [ref=e205]: HOOTLUM vinyl art figure · White
+            - heading "Mist White Hootlum" [level=3] [ref=e207]
+          - generic [ref=e212]:
+            - generic [ref=e213]: New display piece
+            - generic [ref=e215]: White edition
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - strong [ref=e218]: 1,320
+              - generic [ref=e219]: SLM
+            - generic [ref=e220]: Demo reference
+        - article [ref=e221]:
+          - generic [ref=e222]:
+            - button "View Kirishima Nendoroid details" [ref=e223] [cursor=pointer]:
+              - img "Japanese articulated figure in an interior scene" [ref=e224]
+              - generic [ref=e225]: SLM / 004
+            - button "Add to favorites" [ref=e226] [cursor=pointer]
+            - generic [ref=e229]: Preview
+          - button "Nendoroid · Kirishima Kirishima Nendoroid" [ref=e230] [cursor=pointer]:
+            - generic [ref=e231]: Nendoroid · Kirishima
+            - heading "Kirishima Nendoroid" [level=3] [ref=e233]
+          - generic [ref=e238]:
+            - generic [ref=e239]: Includes display base
+            - generic [ref=e241]: Articulated figure
+          - generic [ref=e242]:
+            - generic [ref=e243]:
+              - strong [ref=e244]: "980"
+              - generic [ref=e245]: SLM
+            - generic [ref=e246]: Demo reference
+        - article [ref=e247]:
+          - generic [ref=e248]:
+            - button "View Nendoroid Collection Wall details" [ref=e249] [cursor=pointer]:
+              - img "Wall displaying boxed Nendoroid figures" [ref=e250]
+              - generic [ref=e251]: SLM / 005
+            - generic [ref=e252]: Proof registered
+            - button "Add to favorites" [ref=e256] [cursor=pointer]
+            - generic [ref=e259]: Preview
+          - button "Boxed figure series · Collection set Nendoroid Collection Wall" [ref=e260] [cursor=pointer]:
+            - generic [ref=e261]: Boxed figure series · Collection set
+            - heading "Nendoroid Collection Wall" [level=3] [ref=e263]
+          - generic [ref=e268]:
+            - generic [ref=e269]: Collection preview
+            - generic [ref=e271]: Collection set
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - strong [ref=e274]: 3,200
+              - generic [ref=e275]: SLM
+            - generic [ref=e276]: Demo reference
+      - generic [ref=e277]: Item names, condition notes, SLM prices, and proof labels shown here are website demo content. They do not represent real inventory, sellers, or on-chain records.
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]: BUILT AROUND REAL TRADES
+          - heading "Physical items first, proof along the way." [level=2] [ref=e285]
+          - paragraph [ref=e286]: From sale to video destruction, administrator review, and minting, every status stays understandable.
+        - generic [ref=e287]: Whitepaper flow · Design draft
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - article [ref=e292]:
+            - generic [ref=e293]: 01 / ITEM
+            - heading "Build the item record" [level=3] [ref=e298]
+            - paragraph [ref=e299]: Sellers submit photos, purchase proof, and serial details before platform or partner verification can approve a listing.
+            - generic [ref=e300]:
+              - generic [ref=e301]: Item series
+              - generic [ref=e302]: Verification & condition
+              - generic [ref=e303]: Purchase proof hash
+          - article [ref=e304]:
+            - generic [ref=e305]: 02 / BURN
+            - heading "Record the destruction video after sale" [level=3] [ref=e310]
+            - paragraph [ref=e311]: After the sale, the seller must record and submit the complete destruction process. The physical destruction is irreversible, and the video hash is attached to the review record.
+            - generic [ref=e312]:
+              - generic [ref=e313]: Destruction video
+              - generic [ref=e314]: Video hash & timestamp
+              - generic [ref=e315]: Irreversible physical state
+          - article [ref=e316]:
+            - generic [ref=e317]: 03 / MINT
+            - heading "Mint NFT after administrator review" [level=3] [ref=e322]
+            - paragraph [ref=e323]: A system administrator verifies the destruction video and order before minting the Item NFT. After the dispute window, the Trade Proof NFT is minted and both credentials remain permanently recorded on-chain.
+            - generic [ref=e324]:
+              - generic [ref=e325]: System administrator review
+              - generic [ref=e326]: Mint after approval
+              - generic [ref=e327]: Permanent on-chain record
+        - complementary [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: ITEM PASSPORT
+            - generic [ref=e332]: Design preview
+          - generic [ref=e333]:
+            - img "Physical photo preview for the Blue Dragon Dunny credential" [ref=e334]
+            - generic [ref=e335]: Physical photo preview
+          - generic [ref=e337]:
+            - text: COLLECTIBLE / 001
+            - heading "Blue Dragon Dunny" [level=3] [ref=e338]
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - generic [ref=e345]: Item type
+              - strong [ref=e346]: Designer vinyl
+            - generic [ref=e347]:
+              - generic [ref=e348]: On-chain credential
+              - strong [ref=e349]:
+                - text: Item NFT
+                - generic [ref=e351]: Minted after review
+            - generic [ref=e352]:
+              - generic [ref=e353]: Rights covered
+              - strong [ref=e354]: Item record and trade history
+            - generic [ref=e355]:
+              - generic [ref=e356]: Off-chain data
+              - strong [ref=e357]: Destruction video hash
+          - generic [ref=e358]: An item credential is not brand endorsement and does not transfer trademark, copyright, or character rights.
+      - generic [ref=e359]:
+        - generic [ref=e360]: Buyer pays
+        - generic [ref=e365]: Order escrow
+        - generic [ref=e370]: Sale confirmed
+        - generic [ref=e375]: Seller records destruction video
+        - generic [ref=e380]: System administrator review
+        - generic [ref=e385]: Mint NFT & record permanently on-chain
+    - generic [ref=e388]:
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - generic [ref=e391]: REWARDS FROM REAL ACTIVITY
+          - heading "Rewards come from participation, not promises." [level=2] [ref=e393]
+          - paragraph [ref=e394]: An interactive staking-weight sandbox based on proposed whitepaper parameters. It does not show or predict returns.
+        - generic [ref=e395]: Whitepaper draft parameters
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - heading "Staking weight sandbox" [level=3] [ref=e407]
+            - generic [ref=e408]: Local interaction
+          - generic [ref=e409]:
+            - text: Assumed locked amount
+            - generic [ref=e410]: SLM
+          - generic [ref=e411]:
+            - spinbutton "Assumed locked amount SLM" [ref=e412]: "2500"
+            - generic [ref=e413]: SLM
+            - button "Reset" [ref=e414] [cursor=pointer]
+          - generic [ref=e415]:
+            - slider "Choose SLM locked amount" [ref=e416] [cursor=pointer]: "2500"
+            - generic [ref=e417]:
+              - generic [ref=e418]: 0 SLM
+              - generic [ref=e419]: 50,000 SLM
+          - generic [ref=e420]:
+            - text: Lock period
+            - generic [ref=e421]: Time multiplier
+          - generic "Lock period" [ref=e422]:
+            - button "30 days 1.00×" [ref=e423] [cursor=pointer]:
+              - generic [ref=e424]: 30 days
+              - generic [ref=e425]: 1.00×
+            - button "90 days 1.25×" [ref=e426] [cursor=pointer]:
+              - generic [ref=e427]: 90 days
+              - generic [ref=e428]: 1.25×
+            - button "180 days 1.60×" [ref=e429] [cursor=pointer]:
+              - generic [ref=e430]: 180 days
+              - generic [ref=e431]: 1.60×
+          - generic [ref=e432]:
+            - text: Membership credential
+            - generic [ref=e433]: Draft boost
+          - combobox "Choose membership credential" [ref=e437] [cursor=pointer]:
+            - option "No membership credential" [selected]
+            - option "Collector Pass"
+            - option "Genesis Pass"
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - generic [ref=e442]: Example weight
+              - generic [ref=e443]: "Local example: locked amount × draft multipliers"
+            - strong [ref=e444]: 3,125w
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - img "Swaplume proof mark" [ref=e450]
+            - generic [ref=e451]: Realizedtrading fees
+            - generic [ref=e456]: Approvedcommunity budget
+            - generic [ref=e460]: Stakersshare by weight
+            - generic [ref=e467]: ONLY REALIZED FUNDS
+          - generic [ref=e468]:
+            - text: How rewards are allocated
+            - paragraph [ref=e469]: Each period is capped by realized distributable revenue and a governance-approved budget. The whitepaper proposes weighting by locked amount, lock duration, membership credential, and holding time.
+            - code [ref=e471]: Current reward pool × personal weight ÷ all active weight
+      - generic [ref=e475]:
+        - paragraph [ref=e479]: Draft parameters may change. Staking, reward pool, and membership NFT contracts are not deployed. Rewards depend on realized revenue or a disclosed token budget; no fixed APY, yield, buyback, or token price is promised.
+        - button "View reward rules" [ref=e480] [cursor=pointer]
+    - generic [ref=e483]:
+      - generic [ref=e484]:
+        - generic [ref=e485]: SLM · PROPOSED TOKEN MODEL
+        - heading "Define the mechanics, then validate them." [level=2] [ref=e487]: Define the mechanics,then validate them.
+        - paragraph [ref=e488]: The whitepaper model is for discussion and testing. Supply, allocation, and vesting are not deployed facts.
+        - button "View model notes" [ref=e489] [cursor=pointer]
+      - generic [ref=e493]:
+        - generic [ref=e494]:
+          - generic [ref=e495]: Proposed initial supply
+          - strong [ref=e496]: 1,000,000,000 SLM
+          - generic [ref=e497]: Proposal parameter · Not issued
+        - generic [ref=e498]:
+          - generic [ref=e499]:
+            - generic [ref=e501]: Community, staking & trade rewards
+            - strong [ref=e502]: 30%
+          - generic [ref=e503]:
+            - generic [ref=e505]: Treasury & item acquisition
+            - strong [ref=e506]: 20%
+          - generic [ref=e507]:
+            - generic [ref=e509]: Liquidity & market making
+            - strong [ref=e510]: 15%
+          - generic [ref=e511]:
+            - generic [ref=e513]: Team & core contributors
+            - strong [ref=e514]: 15%
+          - generic [ref=e515]:
+            - generic [ref=e517]: Ecosystem & partners
+            - strong [ref=e518]: 10%
+          - generic [ref=e519]:
+            - generic [ref=e521]: Investors & advisors
+            - strong [ref=e522]: 10%
+        - generic [ref=e523]:
+          - generic [ref=e524]: "Team tokens: proposed 12-month cliff + 36-month linear vesting"
+          - generic [ref=e529]: Multisig and timelock management · Draft proposal
+    - generic [ref=e530]:
+      - generic [ref=e531]:
+        - generic [ref=e532]:
+          - generic [ref=e533]: FROM CONCEPT TO COMMUNITY
+          - heading "Every step should stand up to scrutiny." [level=2] [ref=e535]
+          - paragraph [ref=e536]: Roadmap phases are proposed directions; this site is a product interaction preview.
+        - generic [ref=e537]: DRAFT ROADMAP
+      - generic [ref=e539]:
+        - article [ref=e540]:
+          - generic [ref=e541]: PHASE 00
+          - generic [ref=e602]: Current planning
+          - heading "Mechanism design & testnet" [level=3] [ref=e544]
+          - paragraph [ref=e545]: Complete the data model, token simulation, and contract specs; publish the testnet frontend and run internal security tests.
+          - generic [ref=e546]: Product & audit preparation
+        - article [ref=e547]:
+          - generic [ref=e548]: PHASE 01
+          - generic [ref=e603]: Planned
+          - heading "Genesis & credential NFTs" [level=3] [ref=e550]
+          - paragraph [ref=e551]: Test Genesis Pass, trade proofs, and community quests while validating staking and randomness mechanics.
+          - generic [ref=e552]: Participation validation
+        - article [ref=e553]:
+          - generic [ref=e554]: PHASE 02
+          - generic [ref=e604]: Planned
+          - heading "Marketplace Alpha" [level=3] [ref=e556]
+          - paragraph [ref=e557]: Invite sellers to pilot quotes, escrow, destruction-video submission, administrator review, and credential minting.
+          - generic [ref=e558]: Small-scale trade tests
+        - article [ref=e559]:
+          - generic [ref=e560]: PHASE 03–04
+          - generic [ref=e605]: Later phase
+          - heading "Reward seasons & community governance" [level=3] [ref=e562]
+          - paragraph [ref=e563]: Open reward pools, staking budgets, and community parameter proposals gradually using real trade data.
+          - generic [ref=e564]: Ongoing disclosure & shared governance
+    - generic [ref=e565]:
+      - generic [ref=e567]:
+        - text: A MARKET BUILT FOR COLLECTORS
+        - heading "Collect with care, and keep the proof." [level=2] [ref=e568]
+        - paragraph [ref=e569]: Start with one physical item and leave clear provenance at every trade.
+      - button "Explore the demo market" [ref=e570] [cursor=pointer]
+  - contentinfo [ref=e573]:
+    - generic [ref=e574]:
+      - link "Swaplume.fun" [ref=e575] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e577]:
+          - generic [ref=e578]: swaplume.fun
+          - generic [ref=e579]: COLLECT WITH PROOF.
+      - paragraph [ref=e580]: A Solana resale market designed for physical collectibles.Collect with proof.
+      - generic [ref=e581]:
+        - link "Collectibles market" [ref=e582] [cursor=pointer]:
+          - /url: "#market"
+        - link "Trade protection" [ref=e583] [cursor=pointer]:
+          - /url: "#protocol"
+        - link "Staking model" [ref=e584] [cursor=pointer]:
+          - /url: "#rewards"
+        - link "Roadmap" [ref=e585] [cursor=pointer]:
+          - /url: "#roadmap"
+    - generic [ref=e586]:
+      - generic [ref=e587]: © 2026 Swaplume.fun · Independent collector marketplace
+      - generic [ref=e588]: Not an official store or authorized sales channel for any product brand.
+    - generic [ref=e589]: The relationship between SLM, NFTs, and physical items will be defined by the final terms and order rules. Rewards depend on realized platform revenue and governance budgets and are not a fixed return or investment promise.
+    - generic [ref=e593]:
+      - generic [ref=e594]: "Demo image sources and licenses:"
+      - link "Dunny · CC BY-SA 4.0" [ref=e595] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Dunny_vinyl_figure_which_portrays_a_dragon_embroidered_on_a_silk_brocade_door_valance_and_side_panels_(Chinese,_17th-18th_century)_in_The_MET_collection.jpg
+      - link "Molly · CC0" [ref=e596] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Molly_(art_toy).jpg
+      - link "Hootlum · CC BY-SA 4.0" [ref=e597] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:HOOTLUM_vinyl_art_figure_(white_edition).jpg
+      - link "Nendoroid · CC BY 2.0" [ref=e598] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:KanColle_Nendoroid_-_Kirishima.jpg
+      - link "Collection set · CC BY-SA 2.0" [ref=e599] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Nendoroid_Collection.jpg
