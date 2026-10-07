@@ -592,6 +592,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .hero-actions { gap: 17px; margin-top: 16px; }
   .primary-button { height: 38px; min-width: 128px; gap: 9px; padding: 0 12px; font-size: 10px; }
   .text-button { font-size: 9px; }
+  .token-address-panel { gap: 9px; margin-top: 17px; padding: 10px; }
+  .token-address-label { font-size: 7px; }
+  .token-address-label span { font-size: 6px; }
+  .token-address-copy code { margin-top: 6px; font-size: 8px; line-height: 1.55; }
+  .token-copy-button { min-height: 29px; padding: 0 8px; font-size: 7px; }
   .hero-trust-line { gap: 12px; margin-top: 17px; font-size: 8px; }
   .hero-visual { height: auto; grid-template-columns: 1fr; grid-template-rows: clamp(202px, 64vw, 270px) auto; }
   .hero-art-stage { min-height: 0; }
