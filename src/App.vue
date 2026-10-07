@@ -586,6 +586,12 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
             </button>
           </div>
 
+          <a class="x-link" href="https://x.com/Swaplume" target="_blank" rel="noreferrer" aria-label="Follow Swaplume on X">
+            <X :size="15" stroke-width="2.5" />
+            <span>FOLLOW @SWAPLUME ON X</span>
+            <ExternalLink :size="11" />
+          </a>
+
           <div class="hero-trust-line">
             <span><span class="hero-dot cyan-dot"></span>{{ t('实物先行') }}</span>
             <span><span class="hero-dot lime-dot"></span>{{ t('交易有据') }}</span>
