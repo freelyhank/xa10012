@@ -10,6 +10,7 @@ import {
   ChevronDown,
   Clock3,
   Coins,
+  Copy,
   ExternalLink,
   Heart,
   Image,
@@ -34,6 +35,7 @@ import {
 // as a complete alternate copy deck and the preference survives page reloads.
 const storedLocale = typeof window !== 'undefined' ? window.localStorage.getItem('swaplume-locale') : null
 const locale = ref(storedLocale === 'zh' ? 'zh' : 'en')
+const tokenAddress = 'GS5RcmQpm6gFHMKURnJBCScMB81659KwYoLxN4zypump'
 const englishCopy = {
   '产品预览 · Market prototype': 'Product preview · Market prototype',
   '暂未连接钱包或智能合约': 'Wallet and smart contracts are not connected yet',
@@ -444,6 +446,15 @@ function notify(message) {
   toastTimer = setTimeout(() => (toastMessage.value = ''), 3000)
 }
 
+async function copyTokenAddress() {
+  try {
+    await navigator.clipboard.writeText(tokenAddress)
+    notify('Token address copied')
+  } catch {
+    notify('Copy unavailable — select the address manually')
+  }
+}
+
 function openListing(listing, checkout = false) {
   activeListing.value = listing
   dialogTab.value = 'item'
@@ -562,6 +573,17 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
           <div class="hero-actions">
             <button class="primary-button" type="button" @click="scrollToSection('market')">{{ t('逛逛藏品') }} <ArrowRight :size="17" /></button>
             <button class="text-button" type="button" @click="scrollToSection('protocol')">{{ t('交易如何运作') }} <ArrowUpRight :size="15" /></button>
+          </div>
+
+          <div class="token-address-panel" aria-label="Token address">
+            <div class="token-address-copy">
+              <span class="token-address-label">TOKEN ADDRESS <span>SOLANA</span></span>
+              <code>{{ tokenAddress }}</code>
+            </div>
+            <button class="token-copy-button" type="button" aria-label="Copy token address" title="Copy token address" @click="copyTokenAddress">
+              <Copy :size="14" />
+              <span>COPY</span>
+            </button>
           </div>
 
           <div class="hero-trust-line">
