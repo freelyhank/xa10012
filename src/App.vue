@@ -451,7 +451,7 @@ async function copyTokenAddress() {
     await navigator.clipboard.writeText(tokenAddress)
     notify('Token address copied')
   } catch {
-    notify('Copy unavailable — select the address manually')
+    notify('Copy unavailable - select the address manually')
   }
 }
 
