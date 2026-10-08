@@ -33,7 +33,7 @@ import {
 // The site intentionally keeps i18n local and dependency-free until the product
 // has a router/backend. English is the public default; Chinese remains available
 // as a complete alternate copy deck and the preference survives page reloads.
-const storedLocale = typeof window !== 'undefined' ? window.localStorage.getItem('swaplume-locale') : null
+const storedLocale = typeof window !== 'undefined' ? window.localStorage.getItem('tracefolio-locale') : null
 const locale = ref(storedLocale === 'zh' ? 'zh' : 'en')
 const tokenAddress = 'GS5RcmQpm6gFHMKURnJBCScMB81659KwYoLxN4zypump'
 const englishCopy = {
@@ -102,7 +102,7 @@ const englishCopy = {
   '点击藏品图片上的心形图标，即可加入本地收藏。': 'Click the heart on an item to save it locally.',
   '试试另一个关键词，或切换到全部藏品。': 'Try another keyword, or switch to all collectibles.',
   '查看全部藏品': 'View all collectibles',
-  '目前展示的商品名称、成色描述、SLM 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。': 'Item names, condition notes, SLM prices, and proof labels shown here are website demo content. They do not represent real inventory, sellers, or on-chain records.',
+  '目前展示的商品名称、成色描述、TRF 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。': 'Item names, condition notes, TRF prices, and proof labels shown here are website demo content. They do not represent real inventory, sellers, or on-chain records.',
   '实物在前，': 'Physical items first, ',
   '凭证随行。': 'proof along the way.',
   '从售出、视频销毁到管理员审核和铸造，状态都能被看懂。': 'From sale to video destruction, administrator review, and minting, every status stays understandable.',
@@ -153,7 +153,7 @@ const englishCopy = {
   '本地交互': 'Local interaction',
   '假设锁仓数量': 'Assumed locked amount',
   '重置': 'Reset',
-  '选择 SLM 锁仓数量': 'Choose SLM locked amount',
+  '选择 TRF 锁仓数量': 'Choose TRF locked amount',
   '锁仓周期': 'Lock period',
   '时间系数': 'Time multiplier',
   '会员凭证': 'Membership credential',
@@ -266,19 +266,19 @@ const englishCopy = {
   '售出后拍摄完整销毁视频': 'Record the complete destruction video after sale',
   '视频需覆盖实物销毁全过程，并提交视频哈希与时间戳': 'The video must cover the full destruction and include its hash and timestamp',
   '报价、时限与履约保证金': 'Price, timeline, and performance deposit',
-  '拟以 SLM 报价，并在售出后按规则完成销毁': 'Proposed SLM quote, with destruction completed after sale under the rules',
+  '拟以 TRF 报价，并在售出后按规则完成销毁': 'Proposed TRF quote, with destruction completed after sale under the rules',
   '卖家认证、销毁视频提交和管理员审核功能尚未接入。此清单仅供浏览，不会收集或提交信息。': 'Seller verification, destruction-video submission, and administrator review are not connected. This checklist is for browsing only and collects no information.',
   '了解': 'Got it',
   'WALLET CONNECTION': 'WALLET CONNECTION',
   '钱包接入尚在规划。': 'Wallet connection is on the roadmap.',
-  '这是 Swaplume.fun 的产品交互预览。连接钱包、链上支付、NFT 铸造和质押操作暂未启用。': 'This is a Swaplume.fun product preview. Wallet connection, on-chain payments, NFT minting, and staking are not enabled.',
+  '这是 Tracefolio.xyz 的产品交互预览。连接钱包、链上支付、NFT 铸造和质押操作暂未启用。': 'This is a Tracefolio.xyz product preview. Wallet connection, on-chain payments, NFT minting, and staking are not enabled.',
   '目标网络': 'Target network',
   '待集成': 'To be integrated',
   '返回浏览': 'Back to browsing',
   '关闭提示': 'Dismiss notification',
   '已加入本地收藏': 'Saved locally',
   '已从本地收藏移除': 'Removed from local favorites',
-  'SLM、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。': 'The relationship between SLM, NFTs, and physical items will be defined by the final terms and order rules. Rewards depend on realized platform revenue and governance budgets and are not a fixed return or investment promise.',
+  'TRF、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。': 'The relationship between TRF, NFTs, and physical items will be defined by the final terms and order rules. Rewards depend on realized platform revenue and governance budgets and are not a fixed return or investment promise.',
 }
 
 function t(source, params = {}) {
@@ -288,7 +288,7 @@ function t(source, params = {}) {
 
 function toggleLocale() {
   locale.value = locale.value === 'en' ? 'zh' : 'en'
-  localStorage.setItem('swaplume-locale', locale.value)
+  localStorage.setItem('tracefolio-locale', locale.value)
   document.documentElement.lang = locale.value
 }
 
@@ -475,7 +475,7 @@ function toggleFavorite(id) {
   if (updated.has(id)) updated.delete(id)
   else updated.add(id)
   favorites.value = updated
-  localStorage.setItem('swaplume-favorites', JSON.stringify([...updated]))
+  localStorage.setItem('tracefolio-favorites', JSON.stringify([...updated]))
   notify(t(updated.has(id) ? '已加入本地收藏' : '已从本地收藏移除'))
 }
 
@@ -498,7 +498,7 @@ function handleSearchShortcut(event) {
 onMounted(() => {
   document.documentElement.lang = locale.value
   try {
-    favorites.value = new Set(JSON.parse(localStorage.getItem('swaplume-favorites') || '[]'))
+    favorites.value = new Set(JSON.parse(localStorage.getItem('tracefolio-favorites') || '[]'))
   } catch {
     favorites.value = new Set()
   }
@@ -530,10 +530,10 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
     </div>
 
     <header class="site-header">
-      <a class="brand" href="#top" :aria-label="`Swaplume.fun ${t('首页')}`" @click.prevent="scrollToSection('top')">
+      <a class="brand" href="#top" :aria-label="`Tracefolio.xyz ${t('首页')}`" @click.prevent="scrollToSection('top')">
         <span class="brand-lockup">
-          <img class="brand-mark" src="/brand/logo.png" alt="" />
-          <span class="brand-lockup-copy"><span class="brand-name">swaplume<span class="brand-domain">.fun</span></span><span class="brand-tagline">COLLECT WITH PROOF.</span></span>
+          <img class="brand-mark" src="/brand/logo.svg" alt="" />
+          <span class="brand-lockup-copy"><span class="brand-name">tracefolio<span class="brand-domain">.xyz</span></span><span class="brand-tagline">COLLECT WITH CONTEXT.</span></span>
         </span>
       </a>
 
@@ -575,20 +575,20 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
             <button class="text-button" type="button" @click="scrollToSection('protocol')">{{ t('交易如何运作') }} <ArrowUpRight :size="15" /></button>
           </div>
 
-          <div class="token-address-panel" aria-label="Token address">
+          <div class="token-address-panel" aria-label="Prototype mint address">
             <div class="token-address-copy">
-              <span class="token-address-label">TOKEN ADDRESS <span>SOLANA</span></span>
+              <span class="token-address-label">PROTOTYPE MINT <span>SOLANA</span></span>
               <code>{{ tokenAddress }}</code>
             </div>
-            <button class="token-copy-button" type="button" aria-label="Copy token address" title="Copy token address" @click="copyTokenAddress">
+            <button class="token-copy-button" type="button" aria-label="Copy prototype mint address" title="Copy prototype mint address" @click="copyTokenAddress">
               <Copy :size="14" />
               <span>COPY</span>
             </button>
           </div>
 
-          <a class="x-link" href="https://x.com/Swaplume" target="_blank" rel="noreferrer" aria-label="Follow Swaplume on X">
+          <a class="x-link" href="https://x.com/Tracefolio" target="_blank" rel="noreferrer" aria-label="Follow Tracefolio on X">
             <X :size="15" stroke-width="2.5" />
-            <span>FOLLOW @SWAPLUME ON X</span>
+            <span>FOLLOW @TRACEFOLIO ON X</span>
             <ExternalLink :size="11" />
           </a>
 
@@ -613,7 +613,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
             <p>{{ t('一件实物，销毁后留下永久链上凭证。') }}</p>
             <div class="hero-data-divider"></div>
             <div class="hero-data-row"><span>{{ t('商品凭证') }}</span><strong>ITEM NFT <small>{{ t('审核后铸造') }}</small></strong></div>
-            <div class="hero-data-row"><span>{{ t('示例报价') }}</span><strong>2,480 <em>SLM</em></strong></div>
+            <div class="hero-data-row"><span>{{ t('示例报价') }}</span><strong>2,480 <em>TRF</em></strong></div>
             <div class="hero-data-note"><ShieldCheck :size="13" /><span>{{ t('售出后销毁实物，管理员审核后生成 NFT 并永久上链') }}</span></div>
           </aside>
         </div>
@@ -665,7 +665,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
             <div class="listing-image-frame" :class="`tone-${item.color}`">
               <button class="listing-image-button" type="button" :aria-label="t('查看 {name} 详情', { name: listingText(item, 'name') })" @click="openListing(item)">
                 <img :src="item.image" :alt="listingText(item, 'imageAlt')" loading="lazy" />
-                <span class="image-corner-mark">SLM / {{ item.id }}</span>
+                <span class="image-corner-mark">TRF / {{ item.id }}</span>
               </button>
               <span v-if="item.verified" class="listing-badge"><BadgeCheck :size="13" />{{ t('凭证资料已登记') }}</span>
               <button class="favorite-button" :class="{ 'is-favorite': favorites.has(item.id) }" type="button" :aria-label="favorites.has(item.id) ? t('移出收藏') : t('加入收藏')" :aria-pressed="favorites.has(item.id)" @click="toggleFavorite(item.id)"><Heart :size="17" :fill="favorites.has(item.id) ? 'currentColor' : 'none'" /></button>
@@ -676,7 +676,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
               <div class="listing-title-row"><h3>{{ listingText(item, 'name') }}</h3><span class="listing-arrow"><ArrowUpRight :size="16" /></span></div>
             </button>
             <div class="listing-details"><span><span class="condition-dot"></span>{{ listingText(item, 'condition') }}</span><span>{{ listingText(item, 'edition') }}</span></div>
-            <div class="listing-price-row"><div class="listing-price"><strong>{{ item.price.toLocaleString('en-US') }}</strong><span>SLM</span></div><span class="price-approx">{{ t('参考示例') }}</span></div>
+            <div class="listing-price-row"><div class="listing-price"><strong>{{ item.price.toLocaleString('en-US') }}</strong><span>TRF</span></div><span class="price-approx">{{ t('参考示例') }}</span></div>
           </article>
         </div>
 
@@ -687,7 +687,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
           <button type="button" @click="selectedCategory = '全部藏品'; query = ''">{{ t('查看全部藏品') }} <ArrowRight :size="15" /></button>
         </div>
 
-        <div class="market-footnote"><Info :size="14" /> {{ t('目前展示的商品名称、成色描述、SLM 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。') }}</div>
+        <div class="market-footnote"><Info :size="14" /> {{ t('目前展示的商品名称、成色描述、TRF 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。') }}</div>
       </section>
 
       <section class="proof-section section-anchor" id="protocol">
@@ -756,9 +756,9 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
         <div class="rewards-layout">
           <div class="weight-calculator">
             <div class="calculator-heading"><div><span class="calculator-icon"><Coins :size="17" /></span><h3>{{ t('质押权重试算') }}</h3></div><span class="local-badge">{{ t('本地交互') }}</span></div>
-            <label class="field-label" for="stake-amount">{{ t('假设锁仓数量') }} <span>SLM</span></label>
-            <div class="amount-field"><input id="stake-amount" v-model.number="rewardAmount" type="number" min="0" max="100000000" inputmode="decimal" /><span>SLM</span><button type="button" @click="rewardAmount = 2500">{{ t('重置') }}</button></div>
-            <div class="range-wrap"><input v-model.number="rewardAmount" type="range" min="0" max="50000" step="100" :aria-label="t('选择 SLM 锁仓数量')" /><div class="range-ends"><span>0 SLM</span><span>50,000 SLM</span></div></div>
+            <label class="field-label" for="stake-amount">{{ t('假设锁仓数量') }} <span>TRF</span></label>
+            <div class="amount-field"><input id="stake-amount" v-model.number="rewardAmount" type="number" min="0" max="100000000" inputmode="decimal" /><span>TRF</span><button type="button" @click="rewardAmount = 2500">{{ t('重置') }}</button></div>
+            <div class="range-wrap"><input v-model.number="rewardAmount" type="range" min="0" max="50000" step="100" :aria-label="t('选择 TRF 锁仓数量')" /><div class="range-ends"><span>0 TRF</span><span>50,000 TRF</span></div></div>
 
             <div class="field-label">{{ t('锁仓周期') }} <span>{{ t('时间系数') }}</span></div>
             <div class="segmented-control" :aria-label="t('锁仓周期')">
@@ -774,7 +774,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
           <div class="rewards-context">
             <div class="reward-source-graphic">
               <div class="source-orbit orbit-one"></div><div class="source-orbit orbit-two"></div>
-              <div class="source-center"><img src="/brand/logo.png" alt="Swaplume proof mark" /></div>
+              <div class="source-center"><img src="/brand/logo.svg" alt="Tracefolio proof mark" /></div>
               <div class="source-node node-fees"><TrendingUp :size="16" /><span v-html="t('已实现\n交易手续费').replace(/\n/g, '<br />')"></span></div>
               <div class="source-node node-budget"><Landmark :size="16" /><span v-html="t('公开批准\n社区预算').replace(/\n/g, '<br />')"></span></div>
               <div class="source-node node-stakers"><Coins :size="16" /><span v-html="t('质押者\n按权重分享').replace(/\n/g, '<br />')"></span></div>
@@ -792,13 +792,13 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
 
       <section id="tokenomics" class="tokenomics-section">
         <div class="tokenomics-intro">
-          <div class="eyebrow"><span class="eyebrow-line"></span>SLM · PROPOSED TOKEN MODEL</div>
+          <div class="eyebrow"><span class="eyebrow-line"></span>TRF · PROPOSED TOKEN MODEL</div>
             <h2>{{ t('机制先写清楚，') }}<br /><span>{{ t('再逐步验证。') }}</span></h2>
             <p>{{ t('白皮书初始模型用于讨论与测试，代币供给、分配和释放尚非已部署事实。') }}</p>
             <button class="text-button tokenomics-link" type="button" @click="notify(t('代币初始分配与解锁计划均为白皮书建议模型'))">{{ t('查看模型说明') }} <ArrowUpRight :size="15" /></button>
         </div>
         <div class="tokenomics-data">
-            <div class="supply-line"><span>{{ t('建议初始总量') }}</span><strong>1,000,000,000 <span>SLM</span></strong><span class="supply-disclosure">{{ t('提案参数 · 尚未发行') }}</span></div>
+            <div class="supply-line"><span>{{ t('建议初始总量') }}</span><strong>1,000,000,000 <span>TRF</span></strong><span class="supply-disclosure">{{ t('提案参数 · 尚未发行') }}</span></div>
           <div class="allocation-list">
             <div class="allocation-row"><span class="alloc-color alloc-cyan"></span><span>{{ t('社区、质押与交易奖励') }}</span><strong>30%</strong></div>
             <div class="allocation-row"><span class="alloc-color alloc-lime"></span><span>{{ t('金库与商品采购') }}</span><strong>20%</strong></div>
@@ -822,7 +822,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
       </section>
 
       <section class="collector-cta">
-        <div class="cta-mark-wrap"><img src="/brand/logo.png" alt="" /></div>
+        <div class="cta-mark-wrap"><img src="/brand/logo.svg" alt="" /></div>
          <div class="cta-copy"><span class="tiny-label">A MARKET BUILT FOR COLLECTORS</span><h2>{{ t('藏得认真，') }}<span>{{ t('就该有迹可循。') }}</span></h2><p>{{ t('从一件实物开始，让每一次交易都留下清楚的来历。') }}</p></div>
          <button class="primary-button cta-button" type="button" @click="scrollToSection('market')">{{ t('探索示例市集') }} <ArrowRight :size="17" /></button>
       </section>
@@ -830,17 +830,17 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
 
     <footer class="site-footer">
       <div class="footer-top">
-        <a class="footer-brand" href="#top" aria-label="Swaplume.fun" @click.prevent="scrollToSection('top')">
+        <a class="footer-brand" href="#top" aria-label="Tracefolio.xyz" @click.prevent="scrollToSection('top')">
           <span class="brand-lockup">
-            <img class="brand-mark" src="/brand/logo.png" alt="" />
-            <span class="brand-lockup-copy"><span class="brand-name">swaplume<span class="brand-domain">.fun</span></span><span class="brand-tagline">COLLECT WITH PROOF.</span></span>
+            <img class="brand-mark" src="/brand/logo.svg" alt="" />
+            <span class="brand-lockup-copy"><span class="brand-name">tracefolio<span class="brand-domain">.xyz</span></span><span class="brand-tagline">COLLECT WITH CONTEXT.</span></span>
           </span>
         </a>
-         <p>{{ t('为实物藏品而设计的 Solana 二手市集。') }}<br /><span>Collect with proof.</span></p>
+         <p>{{ t('为实物藏品而设计的 Solana 二手市集。') }}<br /><span>Collect with context.</span></p>
          <div class="footer-links"><a href="#market" @click.prevent="scrollToSection('market')">{{ t('藏品市集') }}</a><a href="#protocol" @click.prevent="scrollToSection('protocol')">{{ t('交易保障') }}</a><a href="#rewards" @click.prevent="scrollToSection('rewards')">{{ t('质押模型') }}</a><a href="#roadmap" @click.prevent="scrollToSection('路线图')">{{ t('路线图') }}</a></div>
       </div>
-       <div class="footer-legal"><span>© 2026 Swaplume.fun · Independent collector marketplace</span><span>{{ t('不是任何商品品牌的官方商城或授权销售渠道。') }}</span></div>
-       <div class="legal-disclaimer"><Info :size="13" /><span>{{ t('SLM、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。') }}</span></div>
+       <div class="footer-legal"><span>© 2026 Tracefolio.xyz · Independent collector marketplace</span><span>{{ t('不是任何商品品牌的官方商城或授权销售渠道。') }}</span></div>
+       <div class="legal-disclaimer"><Info :size="13" /><span>{{ t('TRF、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。') }}</span></div>
        <div class="image-credits"><span>{{ t('演示图片来源与许可：') }}</span><a href="https://commons.wikimedia.org/wiki/File:Dunny_vinyl_figure_which_portrays_a_dragon_embroidered_on_a_silk_brocade_door_valance_and_side_panels_(Chinese,_17th-18th_century)_in_The_MET_collection.jpg" target="_blank" rel="noreferrer">Dunny · CC BY-SA 4.0</a><a href="https://commons.wikimedia.org/wiki/File:Molly_(art_toy).jpg" target="_blank" rel="noreferrer">Molly · CC0</a><a href="https://commons.wikimedia.org/wiki/File:HOOTLUM_vinyl_art_figure_(white_edition).jpg" target="_blank" rel="noreferrer">Hootlum · CC BY-SA 4.0</a><a href="https://commons.wikimedia.org/wiki/File:KanColle_Nendoroid_-_Kirishima.jpg" target="_blank" rel="noreferrer">Nendoroid · CC BY 2.0</a><a href="https://commons.wikimedia.org/wiki/File:Nendoroid_Collection.jpg" target="_blank" rel="noreferrer">{{ t('收藏组合') }} · CC BY-SA 2.0</a></div>
     </footer>
 
@@ -857,7 +857,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
             <div class="dialog-detail-column">
               <template v-if="!showCheckout">
                  <div class="dialog-product-heading"><div class="dialog-overline"><span>DEMO ITEM / {{ activeListing.id }}</span><span class="dialog-live-dot"></span>{{ t('原型藏品') }}</div><h2>{{ listingText(activeListing, 'name') }}</h2><p>{{ listingText(activeListing, 'subtitle') }}</p></div>
-                 <div class="dialog-price"><span>{{ t('示例报价 · 非实时价格') }}</span><strong>{{ activeListing.price.toLocaleString('en-US') }} <small>SLM</small></strong><span class="price-fiat">{{ t('市场和法币参考价格尚未接入') }}</span></div>
+                 <div class="dialog-price"><span>{{ t('示例报价 · 非实时价格') }}</span><strong>{{ activeListing.price.toLocaleString('en-US') }} <small>TRF</small></strong><span class="price-fiat">{{ t('市场和法币参考价格尚未接入') }}</span></div>
                  <div class="dialog-tabs" role="tablist"><button :class="{ active: dialogTab === 'item' }" type="button" role="tab" :aria-selected="dialogTab === 'item'" @click="dialogTab = 'item'">{{ t('藏品详情') }}</button><button :class="{ active: dialogTab === 'proof' }" type="button" role="tab" :aria-selected="dialogTab === 'proof'" @click="dialogTab = 'proof'">{{ t('凭证记录') }}</button></div>
                 <div v-if="dialogTab === 'item'" class="dialog-tab-content">
                    <div class="condition-summary"><span class="condition-dot"></span><span>{{ listingText(activeListing, 'condition') }}</span><span class="summary-divider"></span><span>{{ listingText(activeListing, 'edition') }}</span></div>
@@ -877,7 +877,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
               <template v-else>
                  <button class="checkout-back" type="button" @click="showCheckout = false"><ArrowRight class="back-arrow" :size="15" /> {{ t('返回藏品详情') }}</button>
                  <div class="dialog-product-heading checkout-heading"><div class="dialog-overline"><span>ORDER PREVIEW</span><span class="dialog-live-dot"></span>{{ t('本地试算') }}</div><h2>{{ t('费用明细') }}</h2><p>{{ listingText(activeListing, 'name') }} · {{ t('不会创建实际订单') }}</p></div>
-                 <div class="checkout-lines"><div><span>{{ t('藏品价格') }} <small>{{ t('演示报价') }}</small></span><strong>{{ activeListing.price.toLocaleString('en-US') }} SLM</strong></div><div><span>{{ t('市场服务费') }} <small>{{ t('建议比例 · 10%') }}</small></span><strong>{{ Math.round(activeListing.price * 0.1).toLocaleString('en-US') }} SLM</strong></div><div class="checkout-total"><span>{{ t('试算合计') }} <small>{{ t('服务费用未计入') }}</small></span><strong>{{ Math.round(activeListing.price * 1.1).toLocaleString('en-US') }} <small>SLM</small></strong></div></div>
+                 <div class="checkout-lines"><div><span>{{ t('藏品价格') }} <small>{{ t('演示报价') }}</small></span><strong>{{ activeListing.price.toLocaleString('en-US') }} TRF</strong></div><div><span>{{ t('市场服务费') }} <small>{{ t('建议比例 · 10%') }}</small></span><strong>{{ Math.round(activeListing.price * 0.1).toLocaleString('en-US') }} TRF</strong></div><div class="checkout-total"><span>{{ t('试算合计') }} <small>{{ t('服务费用未计入') }}</small></span><strong>{{ Math.round(activeListing.price * 1.1).toLocaleString('en-US') }} <small>TRF</small></strong></div></div>
                  <div class="escrow-preview"><LockKeyhole :size="16" /><div><strong>{{ t('订单托管为白皮书拟议流程') }}</strong><span>{{ t('真实交易需等待钱包、订单合约、销毁视频审核与 NFT 铸造机制接入。') }}</span></div></div>
                  <button class="dialog-buy-button disabled-preview" type="button" @click="notify(t('预览完成：尚未签名、扣款或提交订单'))">{{ t('完成费用预览') }} <Check :size="16" /></button>
                  <p class="dialog-action-note"><Info :size="13" />{{ t('市场 10% 服务费为白皮书初始建议比例，尚未实施') }}</p>
@@ -893,7 +893,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
         <section class="simple-dialog" role="dialog" aria-modal="true" aria-labelledby="seller-dialog-title">
            <button class="dialog-close icon-button" type="button" :aria-label="t('关闭')" @click="closeDialogs"><X :size="19" /></button>
            <div class="simple-dialog-mark seller-mark"><PackageCheck :size="20" /></div><span class="tiny-label">SELLER READINESS</span><h2 id="seller-dialog-title">{{ t('每件上架，都有准备。') }}</h2><p>{{ t('未来开放上架前，卖家需要准备以下商品资料：') }}</p>
-           <div class="seller-checklist"><div><span>01</span><span><strong>{{ t('商品本体与高清照片') }}</strong><small>{{ t('清楚记录各角度、配件与包装') }}</small></span><Check :size="16" /></div><div><span>02</span><span><strong>{{ t('购买凭证与序列信息') }}</strong><small>{{ t('平台或合作鉴定方审核后建立档案') }}</small></span><Check :size="16" /></div><div><span>03</span><span><strong>{{ t('售出后拍摄完整销毁视频') }}</strong><small>{{ t('视频需覆盖实物销毁全过程，并提交视频哈希与时间戳') }}</small></span><Check :size="16" /></div><div><span>04</span><span><strong>{{ t('报价、时限与履约保证金') }}</strong><small>{{ t('拟以 SLM 报价，并在售出后按规则完成销毁') }}</small></span><Check :size="16" /></div></div>
+           <div class="seller-checklist"><div><span>01</span><span><strong>{{ t('商品本体与高清照片') }}</strong><small>{{ t('清楚记录各角度、配件与包装') }}</small></span><Check :size="16" /></div><div><span>02</span><span><strong>{{ t('购买凭证与序列信息') }}</strong><small>{{ t('平台或合作鉴定方审核后建立档案') }}</small></span><Check :size="16" /></div><div><span>03</span><span><strong>{{ t('售出后拍摄完整销毁视频') }}</strong><small>{{ t('视频需覆盖实物销毁全过程，并提交视频哈希与时间戳') }}</small></span><Check :size="16" /></div><div><span>04</span><span><strong>{{ t('报价、时限与履约保证金') }}</strong><small>{{ t('拟以 TRF 报价，并在售出后按规则完成销毁') }}</small></span><Check :size="16" /></div></div>
            <div class="seller-note"><Info :size="15" /><span>{{ t('卖家认证、销毁视频提交和管理员审核功能尚未接入。此清单仅供浏览，不会收集或提交信息。') }}</span></div>
            <button class="seller-close-button" type="button" @click="closeDialogs">{{ t('了解') }} <ArrowRight :size="16" /></button>
         </section>
@@ -904,7 +904,7 @@ watch([showSellerPanel, showWalletPanel], ([seller, wallet]) => {
       <div v-if="showWalletPanel" class="dialog-backdrop simple-backdrop" @mousedown.self="closeDialogs">
         <section class="simple-dialog wallet-dialog" role="dialog" aria-modal="true" aria-labelledby="wallet-dialog-title">
            <button class="dialog-close icon-button" type="button" :aria-label="t('关闭')" @click="closeDialogs"><X :size="19" /></button>
-           <div class="wallet-brand-icon"><img src="/brand/logo.png" alt="" /></div><span class="tiny-label">WALLET CONNECTION</span><h2 id="wallet-dialog-title">{{ t('钱包接入尚在规划。') }}</h2><p>{{ t('这是 Swaplume.fun 的产品交互预览。连接钱包、链上支付、NFT 铸造和质押操作暂未启用。') }}</p>
+           <div class="wallet-brand-icon"><img src="/brand/logo.svg" alt="" /></div><span class="tiny-label">WALLET CONNECTION</span><h2 id="wallet-dialog-title">{{ t('钱包接入尚在规划。') }}</h2><p>{{ t('这是 Tracefolio.xyz 的产品交互预览。连接钱包、链上支付、NFT 铸造和质押操作暂未启用。') }}</p>
            <div class="network-chip"><span></span>{{ t('目标网络') }} <strong>Solana</strong><span class="network-dev">{{ t('待集成') }}</span></div>
            <button class="seller-close-button" type="button" @click="closeDialogs">{{ t('返回浏览') }} <ArrowRight :size="16" /></button>
         </section>

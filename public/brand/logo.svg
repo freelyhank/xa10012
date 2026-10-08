@@ -1,18 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
-  <title id="title">Swaplume fluid s mark</title>
-  <desc id="desc">A fluid rounded s mark with a coral proof dot and an aqua sweep.</desc>
-  <defs>
-    <linearGradient id="sFluid" x1="190" y1="260" x2="590" y2="620" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F2F4F8"/>
-      <stop offset=".58" stop-color="#B7F34B"/>
-      <stop offset="1" stop-color="#55E6D6"/>
-    </linearGradient>
-    <linearGradient id="sSweep" x1="210" y1="680" x2="600" y2="650" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#55E6D6"/>
-      <stop offset="1" stop-color="#8A7CFF"/>
-    </linearGradient>
-  </defs>
-  <path d="M585 265 C526 222 446 207 359 216 C270 225 214 272 220 339 C226 400 284 427 371 441 L454 454 C535 467 574 505 562 552 C548 608 472 638 386 635 C296 632 231 599 194 546" fill="none" stroke="url(#sFluid)" stroke-width="86" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="610" cy="186" r="20" fill="#FF6B4A"/>
-  <path d="M210 670 C323 704 505 704 600 655" fill="none" stroke="url(#sSweep)" stroke-width="14" stroke-linecap="round"/>
+  <title id="title">Tracefolio trace mark</title>
+  <desc id="desc">A geometric trace mark made from three connected paths.</desc>
+  <rect x="88" y="88" width="624" height="624" rx="148" fill="#16181D"/>
+  <path d="M246 250h308M246 250v212c0 66 54 120 120 120h188" fill="none" stroke="#F5F2EA" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M554 250v212c0 66-54 120-120 120H246" fill="none" stroke="#FF795C" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="554" cy="250" r="20" fill="#4D65FF"/>
+  <path d="M210 628h380" stroke="#4D65FF" stroke-width="16" stroke-linecap="round"/>
 </svg>

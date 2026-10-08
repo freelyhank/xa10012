@@ -6,9 +6,9 @@
     - link "See how it works" [ref=e1259] [cursor=pointer]:
       - /url: "#protocol"
   - banner [ref=e682]:
-    - link "Swaplume.fun Home" [ref=e1260] [cursor=pointer]:
+    - link "Tracefolio.xyz Home" [ref=e1260] [cursor=pointer]:
       - /url: "#top"
-      - img "Swaplume.fun — Collect with proof." [ref=e684]
+      - img "Tracefolio.xyz — Collect with context." [ref=e684]
     - navigation "Primary navigation" [ref=e1261]:
       - link "Collectibles market" [ref=e1262] [cursor=pointer]:
         - /url: "#market"
@@ -54,7 +54,7 @@
             - generic [ref=e744]: Example price
             - strong [ref=e745]:
               - text: 2,480
-              - emphasis [ref=e746]: SLM
+              - emphasis [ref=e746]: TRF
           - generic [ref=e747]: Live listings and on-chain records are not available yet
     - region "Platform principles" [ref=e1274]:
       - generic [ref=e753]:
@@ -101,7 +101,7 @@
           - generic [ref=e802]:
             - button "View Blue Dragon Dunny details" [ref=e1285] [cursor=pointer]:
               - img "White vinyl figure with a blue dragon motif" [ref=e1286]
-              - generic [ref=e805]: SLM / 001
+              - generic [ref=e805]: TRF / 001
             - generic [ref=e806]: Proof registered
             - button "Add to favorites" [ref=e1287] [cursor=pointer]
             - generic [ref=e813]: Preview
@@ -114,13 +114,13 @@
           - generic [ref=e826]:
             - generic [ref=e827]:
               - strong [ref=e828]: 2,480
-              - generic [ref=e829]: SLM
+              - generic [ref=e829]: TRF
             - generic [ref=e830]: Demo reference
         - article [ref=e831]:
           - generic [ref=e832]:
             - button "View Molly · Artist Edition details" [ref=e1290] [cursor=pointer]:
               - img "Molly art toy figure" [ref=e1291]
-              - generic [ref=e835]: SLM / 002
+              - generic [ref=e835]: TRF / 002
             - button "Add to favorites" [ref=e1292] [cursor=pointer]
             - generic [ref=e839]: Preview
           - button "Molly (art toy) · Display collection Molly · Artist Edition" [ref=e1293] [cursor=pointer]:
@@ -132,13 +132,13 @@
           - generic [ref=e852]:
             - generic [ref=e853]:
               - strong [ref=e854]: 1,860
-              - generic [ref=e855]: SLM
+              - generic [ref=e855]: TRF
             - generic [ref=e856]: Demo reference
         - article [ref=e857]:
           - generic [ref=e858]:
             - button "View Mist White Hootlum details" [ref=e1295] [cursor=pointer]:
               - img "White Hootlum vinyl art figure" [ref=e1296]
-              - generic [ref=e861]: SLM / 003
+              - generic [ref=e861]: TRF / 003
             - generic [ref=e862]: Proof registered
             - button "Add to favorites" [ref=e1297] [cursor=pointer]
             - generic [ref=e869]: Preview
@@ -151,13 +151,13 @@
           - generic [ref=e882]:
             - generic [ref=e883]:
               - strong [ref=e884]: 1,320
-              - generic [ref=e885]: SLM
+              - generic [ref=e885]: TRF
             - generic [ref=e886]: Demo reference
         - article [ref=e887]:
           - generic [ref=e888]:
             - button "View Kirishima Nendoroid details" [ref=e1300] [cursor=pointer]:
               - img "Japanese articulated figure in an interior scene" [ref=e1301]
-              - generic [ref=e891]: SLM / 004
+              - generic [ref=e891]: TRF / 004
             - button "Add to favorites" [ref=e1302] [cursor=pointer]
             - generic [ref=e895]: Preview
           - button "Nendoroid · Kirishima Kirishima Nendoroid" [ref=e1303] [cursor=pointer]:
@@ -169,13 +169,13 @@
           - generic [ref=e908]:
             - generic [ref=e909]:
               - strong [ref=e910]: "980"
-              - generic [ref=e911]: SLM
+              - generic [ref=e911]: TRF
             - generic [ref=e912]: Demo reference
         - article [ref=e913]:
           - generic [ref=e914]:
             - button "View Nendoroid Collection Wall details" [ref=e1305] [cursor=pointer]:
               - img "Wall displaying boxed Nendoroid figures" [ref=e1306]
-              - generic [ref=e917]: SLM / 005
+              - generic [ref=e917]: TRF / 005
             - generic [ref=e918]: Proof registered
             - button "Add to favorites" [ref=e1307] [cursor=pointer]
             - generic [ref=e925]: Preview
@@ -188,9 +188,9 @@
           - generic [ref=e938]:
             - generic [ref=e939]:
               - strong [ref=e940]: 3,200
-              - generic [ref=e941]: SLM
+              - generic [ref=e941]: TRF
             - generic [ref=e942]: Demo reference
-      - generic [ref=e943]: Item names, condition notes, SLM prices, and proof labels shown here are website demo content. They do not represent real inventory, sellers, or on-chain records.
+      - generic [ref=e943]: Item names, condition notes, TRF prices, and proof labels shown here are website demo content. They do not represent real inventory, sellers, or on-chain records.
     - generic [ref=e946]:
       - generic [ref=e947]:
         - generic [ref=e948]:
@@ -270,16 +270,16 @@
             - generic [ref=e1070]: Local interaction
           - generic [ref=e1071]:
             - text: Assumed locked amount
-            - generic [ref=e1072]: SLM
+            - generic [ref=e1072]: TRF
           - generic [ref=e1073]:
-            - spinbutton "Assumed locked amount SLM" [ref=e1318]: "2500"
-            - generic [ref=e1075]: SLM
+            - spinbutton "Assumed locked amount TRF" [ref=e1318]: "2500"
+            - generic [ref=e1075]: TRF
             - button "Reset" [ref=e1319] [cursor=pointer]
           - generic [ref=e1077]:
-            - slider "Choose SLM locked amount" [ref=e1320] [cursor=pointer]: "2500"
+            - slider "Choose TRF locked amount" [ref=e1320] [cursor=pointer]: "2500"
             - generic [ref=e1079]:
-              - generic [ref=e1080]: 0 SLM
-              - generic [ref=e1081]: 50,000 SLM
+              - generic [ref=e1080]: 0 TRF
+              - generic [ref=e1081]: 50,000 TRF
           - generic [ref=e1082]:
             - text: Lock period
             - generic [ref=e1083]: Time multiplier
@@ -307,7 +307,7 @@
             - strong [ref=e1106]: 1.25×
         - generic [ref=e1107]:
           - generic [ref=e1108]:
-            - img "Swaplume proof mark" [ref=e1112]
+            - img "Tracefolio proof mark" [ref=e1112]
             - generic [ref=e1113]: Realizedtrading fees
             - generic [ref=e1118]: Approvedcommunity budget
             - generic [ref=e1122]: Stakersshare by weight
@@ -321,14 +321,14 @@
         - button "View reward rules" [ref=e1326] [cursor=pointer]
     - generic [ref=e1145]:
       - generic [ref=e1146]:
-        - generic [ref=e1147]: SLM · PROPOSED TOKEN MODEL
+        - generic [ref=e1147]: TRF · PROPOSED TOKEN MODEL
         - heading "Define the mechanics, then validate them." [level=2] [ref=e1327]: Define the mechanics,then validate them.
         - paragraph [ref=e1150]: The whitepaper model is for discussion and testing. Supply, allocation, and vesting are not deployed facts.
         - button "View model notes" [ref=e1328] [cursor=pointer]
       - generic [ref=e1155]:
         - generic [ref=e1156]:
           - generic [ref=e1157]: Proposed initial supply
-          - strong [ref=e1158]: 1,000,000,000 SLM
+          - strong [ref=e1158]: 1,000,000,000 TRF
           - generic [ref=e1159]: Proposal parameter · Not issued
         - generic [ref=e1160]:
           - generic [ref=e1161]:
@@ -394,8 +394,8 @@
     - generic [ref=e1236]:
       - link [ref=e1237] [cursor=pointer]:
         - /url: "#top"
-        - img "Swaplume.fun" [ref=e1238]
-      - paragraph [ref=e1239]: A Solana resale market designed for physical collectibles.Collect with proof.
+        - img "Tracefolio.xyz" [ref=e1238]
+      - paragraph [ref=e1239]: A Solana resale market designed for physical collectibles.Collect with context.
       - generic [ref=e1240]:
         - link "Collectibles market" [ref=e1336] [cursor=pointer]:
           - /url: "#market"
@@ -406,9 +406,9 @@
         - link "Roadmap" [ref=e1339] [cursor=pointer]:
           - /url: "#roadmap"
     - generic [ref=e1245]:
-      - generic [ref=e1246]: © 2026 Swaplume.fun · Independent collector marketplace
+      - generic [ref=e1246]: © 2026 Tracefolio.xyz · Independent collector marketplace
       - generic [ref=e1247]: Not an official store or authorized sales channel for any product brand.
-    - generic [ref=e1248]: The relationship between SLM, NFTs, and physical items will be defined by the final terms and order rules. Rewards depend on realized platform revenue and governance budgets and are not a fixed return or investment promise.
+    - generic [ref=e1248]: The relationship between TRF, NFTs, and physical items will be defined by the final terms and order rules. Rewards depend on realized platform revenue and governance budgets and are not a fixed return or investment promise.
     - generic [ref=e1252]:
       - generic [ref=e1253]: "Demo image sources and licenses:"
       - link "Dunny · CC BY-SA 4.0" [ref=e1254] [cursor=pointer]:

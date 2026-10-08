@@ -6,9 +6,9 @@
     - link "了解交易流程" [ref=e586] [cursor=pointer]:
       - /url: "#protocol"
   - banner [ref=e590]:
-    - link "Swaplume.fun 首页" [ref=e591] [cursor=pointer]:
+    - link "Tracefolio.xyz 首页" [ref=e591] [cursor=pointer]:
       - /url: "#top"
-      - img "Swaplume.fun — Collect with proof." [ref=e592]
+      - img "Tracefolio.xyz — Collect with context." [ref=e592]
     - navigation "主要导航" [ref=e593]:
       - link "藏品市集" [ref=e594] [cursor=pointer]:
         - /url: "#market"
@@ -53,7 +53,7 @@
             - generic [ref=e651]: 示例报价
             - strong [ref=e652]:
               - text: 2,480
-              - emphasis [ref=e653]: SLM
+              - emphasis [ref=e653]: TRF
           - generic [ref=e654]: 真实上架与链上记录暂未开放
     - region "平台特征" [ref=e659]:
       - generic [ref=e660]:
@@ -99,7 +99,7 @@
         - generic [ref=e709]:
           - button "查看 Molly · 艺术家款 详情" [ref=e710] [cursor=pointer]:
             - img "Molly 艺术玩具人物公仔" [ref=e711]
-            - generic [ref=e712]: SLM / 002
+            - generic [ref=e712]: TRF / 002
           - button "加入收藏" [ref=e713] [cursor=pointer]
           - generic [ref=e716]: 预览
         - button "Molly (art toy) · 收藏展示 Molly · 艺术家款" [ref=e717] [cursor=pointer]:
@@ -111,9 +111,9 @@
         - generic [ref=e729]:
           - generic [ref=e730]:
             - strong [ref=e731]: 1,860
-            - generic [ref=e732]: SLM
+            - generic [ref=e732]: TRF
           - generic [ref=e733]: 参考示例
-      - generic [ref=e734]: 目前展示的商品名称、成色描述、SLM 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。
+      - generic [ref=e734]: 目前展示的商品名称、成色描述、TRF 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。
     - generic [ref=e737]:
       - generic [ref=e738]:
         - generic [ref=e739]:
@@ -193,16 +193,16 @@
             - generic [ref=e861]: 本地交互
           - generic [ref=e862]:
             - text: 假设锁仓数量
-            - generic [ref=e863]: SLM
+            - generic [ref=e863]: TRF
           - generic [ref=e864]:
-            - spinbutton "假设锁仓数量 SLM" [ref=e865]: "2500"
-            - generic [ref=e866]: SLM
+            - spinbutton "假设锁仓数量 TRF" [ref=e865]: "2500"
+            - generic [ref=e866]: TRF
             - button "重置" [ref=e867] [cursor=pointer]
           - generic [ref=e868]:
-            - slider "选择 SLM 锁仓数量" [ref=e869] [cursor=pointer]: "2500"
+            - slider "选择 TRF 锁仓数量" [ref=e869] [cursor=pointer]: "2500"
             - generic [ref=e870]:
-              - generic [ref=e871]: 0 SLM
-              - generic [ref=e872]: 50,000 SLM
+              - generic [ref=e871]: 0 TRF
+              - generic [ref=e872]: 50,000 TRF
           - generic [ref=e873]:
             - text: 锁仓周期
             - generic [ref=e874]: 时间系数
@@ -230,7 +230,7 @@
             - strong [ref=e897]: 1.25×
         - generic [ref=e898]:
           - generic [ref=e899]:
-            - img "Swaplume proof mark" [ref=e903]
+            - img "Tracefolio proof mark" [ref=e903]
             - generic [ref=e904]: 已实现交易手续费
             - generic [ref=e909]: 公开批准社区预算
             - generic [ref=e913]: 质押者按权重分享
@@ -244,14 +244,14 @@
         - button "查看奖励规则说明" [ref=e933] [cursor=pointer]
     - generic [ref=e936]:
       - generic [ref=e937]:
-        - generic [ref=e938]: SLM · PROPOSED TOKEN MODEL
+        - generic [ref=e938]: TRF · PROPOSED TOKEN MODEL
         - heading "机制先写清楚， 再逐步验证。" [level=2] [ref=e940]: 机制先写清楚，再逐步验证。
         - paragraph [ref=e941]: 白皮书初始模型用于讨论与测试，代币供给、分配和释放尚非已部署事实。
         - button "查看模型说明" [ref=e942] [cursor=pointer]
       - generic [ref=e946]:
         - generic [ref=e947]:
           - generic [ref=e948]: 建议初始总量
-          - strong [ref=e949]: 1,000,000,000 SLM
+          - strong [ref=e949]: 1,000,000,000 TRF
           - generic [ref=e950]: 提案参数 · 尚未发行
         - generic [ref=e951]:
           - generic [ref=e952]:
@@ -317,8 +317,8 @@
     - generic [ref=e1027]:
       - link [ref=e1028] [cursor=pointer]:
         - /url: "#top"
-        - img "Swaplume.fun" [ref=e1029]
-      - paragraph [ref=e1030]: 为实物藏品而设计的 Solana 二手市集。Collect with proof.
+        - img "Tracefolio.xyz" [ref=e1029]
+      - paragraph [ref=e1030]: 为实物藏品而设计的 Solana 二手市集。Collect with context.
       - generic [ref=e1031]:
         - link "藏品市集" [ref=e1032] [cursor=pointer]:
           - /url: "#market"
@@ -329,9 +329,9 @@
         - link "路线图" [ref=e1035] [cursor=pointer]:
           - /url: "#roadmap"
     - generic [ref=e1036]:
-      - generic [ref=e1037]: © 2026 Swaplume.fun · Independent collector marketplace
+      - generic [ref=e1037]: © 2026 Tracefolio.xyz · Independent collector marketplace
       - generic [ref=e1038]: 不是任何商品品牌的官方商城或授权销售渠道。
-    - generic [ref=e1039]: SLM、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。
+    - generic [ref=e1039]: TRF、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。
     - generic [ref=e1043]:
       - generic [ref=e1044]: 演示图片来源与许可：
       - link "Dunny · CC BY-SA 4.0" [ref=e1045] [cursor=pointer]:

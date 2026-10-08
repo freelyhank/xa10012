@@ -1,17 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
-  <title id="title">Swaplume fluid wordmark</title>
-  <desc id="desc">A fluid s mark paired with the Swaplume.fun wordmark.</desc>
-  <defs>
-    <linearGradient id="lockupS" x1="30" y1="90" x2="250" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F2F4F8"/>
-      <stop offset=".58" stop-color="#B7F34B"/>
-      <stop offset="1" stop-color="#55E6D6"/>
-    </linearGradient>
-  </defs>
-  <path d="M252 89 C225 69 187 62 147 66 C106 70 80 91 83 120 C86 146 111 158 150 164 L188 170 C224 176 242 193 237 214 C231 240 197 254 158 252 C117 250 89 236 72 212" fill="none" stroke="url(#lockupS)" stroke-width="33" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="263" cy="54" r="9" fill="#FF6B4A"/>
-  <path d="M78 269 C130 285 207 284 250 263" fill="none" stroke="#55E6D6" stroke-width="6" stroke-linecap="round"/>
-  <text x="330" y="224" fill="#F2F4F8" font-family="DM Sans,Arial,sans-serif" font-size="76" font-weight="600" letter-spacing="1">swaplume</text>
-  <text x="1005" y="224" fill="#FF6B4A" font-family="DM Sans,Arial,sans-serif" font-size="47" font-weight="700" letter-spacing="1">.fun</text>
-  <text x="335" y="278" fill="#9AA5B3" font-family="DM Sans,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">COLLECT WITH PROOF.</text>
+  <title id="title">Tracefolio wordmark</title>
+  <desc id="desc">Tracefolio wordmark with a geometric trace mark and the tagline Collect with context.</desc>
+  <rect x="28" y="28" width="284" height="284" rx="66" fill="#16181D"/>
+  <path d="M92 102h156M92 102v96c0 30 25 55 55 55h95" fill="none" stroke="#F5F2EA" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M248 102v96c0 30-25 55-55 55H92" fill="none" stroke="#FF795C" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="248" cy="102" r="9" fill="#4D65FF"/>
+  <path d="M74 274h172" stroke="#4D65FF" stroke-width="7" stroke-linecap="round"/>
+  <text x="370" y="212" fill="#F5F2EA" font-family="DM Sans,Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-1">tracefolio</text>
+  <text x="374" y="264" fill="#FF795C" font-family="DM Sans,Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="2">.xyz</text>
+  <text x="374" y="312" fill="#A9AFBA" font-family="DM Sans,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">COLLECT WITH CONTEXT.</text>
 </svg>

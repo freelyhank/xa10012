@@ -6,9 +6,9 @@
     - link "了解交易流程" [ref=f2e9] [cursor=pointer]:
       - /url: "#protocol"
   - banner [ref=f2e13]:
-    - link "Swaplume.fun 首页" [ref=f2e14] [cursor=pointer]:
+    - link "Tracefolio.xyz 首页" [ref=f2e14] [cursor=pointer]:
       - /url: "#top"
-      - img "Swaplume.fun — Collect with proof." [ref=f2e15]
+      - img "Tracefolio.xyz — Collect with context." [ref=f2e15]
     - generic [ref=f2e16]:
       - button "成为卖家" [ref=f2e17] [cursor=pointer]
       - button "连接钱包" [ref=f2e19] [cursor=pointer]
@@ -85,7 +85,7 @@
           - generic [ref=f2e109]:
             - button "查看 蓝龙 Dunny 详情" [ref=f2e110] [cursor=pointer]:
               - img "白色搪胶公仔，绘有青蓝色龙纹" [ref=f2e111]
-              - generic [ref=f2e112]: SLM / 001
+              - generic [ref=f2e112]: TRF / 001
             - generic [ref=f2e113]: 凭证资料已登记
             - button "加入收藏" [ref=f2e117] [cursor=pointer]
             - generic [ref=f2e120]: 预览
@@ -98,13 +98,13 @@
           - generic [ref=f2e133]:
             - generic [ref=f2e134]:
               - strong [ref=f2e135]: 2,480
-              - generic [ref=f2e136]: SLM
+              - generic [ref=f2e136]: TRF
             - generic [ref=f2e137]: 参考示例
         - article [ref=f2e138]:
           - generic [ref=f2e139]:
             - button "查看 Molly · 艺术家款 详情" [ref=f2e140] [cursor=pointer]:
               - img "Molly 艺术玩具人物公仔" [ref=f2e141]
-              - generic [ref=f2e142]: SLM / 002
+              - generic [ref=f2e142]: TRF / 002
             - button "加入收藏" [ref=f2e143] [cursor=pointer]
             - generic [ref=f2e146]: 预览
           - button "Molly (art toy) · 收藏展示 Molly · 艺术家款" [ref=f2e147] [cursor=pointer]:
@@ -116,13 +116,13 @@
           - generic [ref=f2e159]:
             - generic [ref=f2e160]:
               - strong [ref=f2e161]: 1,860
-              - generic [ref=f2e162]: SLM
+              - generic [ref=f2e162]: TRF
             - generic [ref=f2e163]: 参考示例
         - article [ref=f2e164]:
           - generic [ref=f2e165]:
             - button "查看 雾白 Hootlum 详情" [ref=f2e166] [cursor=pointer]:
               - img "白色 Hootlum 搪胶艺术公仔" [ref=f2e167]
-              - generic [ref=f2e168]: SLM / 003
+              - generic [ref=f2e168]: TRF / 003
             - generic [ref=f2e169]: 凭证资料已登记
             - button "加入收藏" [ref=f2e173] [cursor=pointer]
             - generic [ref=f2e176]: 预览
@@ -135,13 +135,13 @@
           - generic [ref=f2e189]:
             - generic [ref=f2e190]:
               - strong [ref=f2e191]: 1,320
-              - generic [ref=f2e192]: SLM
+              - generic [ref=f2e192]: TRF
             - generic [ref=f2e193]: 参考示例
         - article [ref=f2e194]:
           - generic [ref=f2e195]:
             - button "查看 Kirshima Nendoroid 详情" [ref=f2e196] [cursor=pointer]:
               - img "摆放在室内场景中的日系可动人偶" [ref=f2e197]
-              - generic [ref=f2e198]: SLM / 004
+              - generic [ref=f2e198]: TRF / 004
             - button "加入收藏" [ref=f2e199] [cursor=pointer]
             - generic [ref=f2e202]: 预览
           - button "Nendoroid · ねんどろいど 桐島 Kirshima Nendoroid" [ref=f2e203] [cursor=pointer]:
@@ -153,13 +153,13 @@
           - generic [ref=f2e215]:
             - generic [ref=f2e216]:
               - strong [ref=f2e217]: "980"
-              - generic [ref=f2e218]: SLM
+              - generic [ref=f2e218]: TRF
             - generic [ref=f2e219]: 参考示例
         - article [ref=f2e220]:
           - generic [ref=f2e221]:
             - button "查看 Nendoroid 收藏墙 详情" [ref=f2e222] [cursor=pointer]:
               - img "一面墙陈列着盒装 Nendoroid 收藏人偶" [ref=f2e223]
-              - generic [ref=f2e224]: SLM / 005
+              - generic [ref=f2e224]: TRF / 005
             - generic [ref=f2e225]: 凭证资料已登记
             - button "加入收藏" [ref=f2e229] [cursor=pointer]
             - generic [ref=f2e232]: 预览
@@ -172,9 +172,9 @@
           - generic [ref=f2e245]:
             - generic [ref=f2e246]:
               - strong [ref=f2e247]: 3,200
-              - generic [ref=f2e248]: SLM
+              - generic [ref=f2e248]: TRF
             - generic [ref=f2e249]: 参考示例
-      - generic [ref=f2e250]: 目前展示的商品名称、成色描述、SLM 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。
+      - generic [ref=f2e250]: 目前展示的商品名称、成色描述、TRF 报价与凭证标记均为网页演示内容，不代表真实库存、卖家或链上商品记录。
     - generic [ref=f2e253]:
       - generic [ref=f2e254]:
         - generic [ref=f2e255]:
@@ -254,16 +254,16 @@
             - generic [ref=f2e377]: 本地交互
           - generic [ref=f2e378]:
             - text: 假设锁仓数量
-            - generic [ref=f2e379]: SLM
+            - generic [ref=f2e379]: TRF
           - generic [ref=f2e380]:
-            - spinbutton "假设锁仓数量 SLM" [ref=f2e381]: "2500"
-            - generic [ref=f2e382]: SLM
+            - spinbutton "假设锁仓数量 TRF" [ref=f2e381]: "2500"
+            - generic [ref=f2e382]: TRF
             - button "重置" [ref=f2e383] [cursor=pointer]
           - generic [ref=f2e384]:
-            - slider "选择 SLM 锁仓数量" [ref=f2e385] [cursor=pointer]: "2500"
+            - slider "选择 TRF 锁仓数量" [ref=f2e385] [cursor=pointer]: "2500"
             - generic [ref=f2e386]:
-              - generic [ref=f2e387]: 0 SLM
-              - generic [ref=f2e388]: 50,000 SLM
+              - generic [ref=f2e387]: 0 TRF
+              - generic [ref=f2e388]: 50,000 TRF
           - generic [ref=f2e389]:
             - text: 锁仓周期
             - generic [ref=f2e390]: 时间系数
@@ -291,7 +291,7 @@
             - strong [ref=f2e413]: 1.25×
         - generic [ref=f2e414]:
           - generic [ref=f2e415]:
-            - img "Swaplume proof mark" [ref=f2e419]
+            - img "Tracefolio proof mark" [ref=f2e419]
             - generic [ref=f2e420]: 已实现交易手续费
             - generic [ref=f2e425]: 公开批准社区预算
             - generic [ref=f2e429]: 质押者按权重分享
@@ -305,14 +305,14 @@
         - button "查看奖励规则说明" [ref=f2e449] [cursor=pointer]
     - generic [ref=f2e452]:
       - generic [ref=f2e453]:
-        - generic [ref=f2e454]: SLM · PROPOSED TOKEN MODEL
+        - generic [ref=f2e454]: TRF · PROPOSED TOKEN MODEL
         - heading "机制先写清楚， 再逐步验证。" [level=2] [ref=f2e456]: 机制先写清楚，再逐步验证。
         - paragraph [ref=f2e457]: 白皮书初始模型用于讨论与测试，代币供给、分配和释放尚非已部署事实。
         - button "查看模型说明" [ref=f2e458] [cursor=pointer]
       - generic [ref=f2e462]:
         - generic [ref=f2e463]:
           - generic [ref=f2e464]: 建议初始总量
-          - strong [ref=f2e465]: 1,000,000,000 SLM
+          - strong [ref=f2e465]: 1,000,000,000 TRF
           - generic [ref=f2e466]: 提案参数 · 尚未发行
         - generic [ref=f2e467]:
           - generic [ref=f2e468]:
@@ -378,8 +378,8 @@
     - generic [ref=f2e547]:
       - link [ref=f2e548] [cursor=pointer]:
         - /url: "#top"
-        - img "Swaplume.fun" [ref=f2e549]
-      - paragraph [ref=f2e550]: 为实物藏品而设计的 Solana 二手市集。Collect with proof.
+        - img "Tracefolio.xyz" [ref=f2e549]
+      - paragraph [ref=f2e550]: 为实物藏品而设计的 Solana 二手市集。Collect with context.
       - generic [ref=f2e551]:
         - link "藏品市集" [ref=f2e552] [cursor=pointer]:
           - /url: "#market"
@@ -390,9 +390,9 @@
         - link "路线图" [ref=f2e555] [cursor=pointer]:
           - /url: "#roadmap"
     - generic [ref=f2e556]:
-      - generic [ref=f2e557]: © 2026 Swaplume.fun · Independent collector marketplace
+      - generic [ref=f2e557]: © 2026 Tracefolio.xyz · Independent collector marketplace
       - generic [ref=f2e558]: 不是任何商品品牌的官方商城或授权销售渠道。
-    - generic [ref=f2e559]: SLM、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。
+    - generic [ref=f2e559]: TRF、NFT 与实体商品的具体关系以正式用户协议和订单规则为准。任何奖励均受真实平台收入与治理预算约束，不构成固定收益或投资回报承诺。
     - generic [ref=f2e563]:
       - generic [ref=f2e564]: 演示图片来源与许可：
       - link "Dunny · CC BY-SA 4.0" [ref=f2e565] [cursor=pointer]:
@@ -430,17 +430,17 @@
             - generic [ref=f2e668]:
               - text: 藏品价格
               - generic [ref=f2e669]: 演示报价
-            - strong [ref=f2e670]: 2,480 SLM
+            - strong [ref=f2e670]: 2,480 TRF
           - generic [ref=f2e671]:
             - generic [ref=f2e672]:
               - text: 市场服务费
               - generic [ref=f2e673]: 建议比例 · 10%
-            - strong [ref=f2e674]: 248 SLM
+            - strong [ref=f2e674]: 248 TRF
           - generic [ref=f2e675]:
             - generic [ref=f2e676]:
               - text: 试算合计
               - generic [ref=f2e677]: 物流费用未计入
-            - strong [ref=f2e678]: 2,728 SLM
+            - strong [ref=f2e678]: 2,728 TRF
         - generic [ref=f2e684]:
           - strong [ref=f2e685]: 订单托管为白皮书拟议流程
           - generic [ref=f2e686]: 真实交易需等待钱包、订单合约、物流与争议处理机制接入。
